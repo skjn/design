@@ -51,7 +51,26 @@ import sk1 from './images/Skjn/2.jpg';
 import sk2 from './images/Skjn/3.jpg';
 import sk3 from './images/Skjn/4.jpg';
 import sk4 from './images/Skjn/5.jpg';
+import dfh1 from './images/DFH/1.jpg';
+import dfh2 from './images/DFH/Sensei.pdf';
+import dfh3 from './images/DFH/3.jpg';
+import dfh4 from './images/DFH/4.jpg';
+import dfh5 from './images/DFH/5.png';
+import dfh6 from './images/DFH/6.jpg';
+import dfh7 from './images/DFH/7.jpg';
+import dfh8 from './images/DFH/8.jpg';
+import dfh9 from './images/DFH/9.jpg';
+import dfh11 from './images/DFH/11.jpg';
+import dfh12 from './images/DFH/12.png';
+import dfh13 from './images/DFH/13.png';
+import dfh14 from './images/DFH/14.png';
+import dfh15 from './images/DFH/15.png';
+import dfh16 from './images/DFH/16.jpg';
+import dfh17 from './images/DFH/17.jpg';
+import dfh18 from './images/DFH/18.jpg';
+
 
 export default [t1,t2,t3,t4,t5,t6,t7,t8,t9,th1,th2,th3,th4,th5,th6,th7,th8,th9,ng1,ng2,ng3,ng4,ng5,
                 ud1,ud2,ud3,ud4,ud5,ud6,ud7,ud8,ud9,ud10,ud11,ud12,ud13,h1,h2,h3,h4,h5,h6,d1,
-                om1,om2,om3,bt1,bt2,resume,sk1,sk2,sk3,sk4]
+                om1,om2,om3,bt1,bt2,resume,sk1,sk2,sk3,sk4,dfh1,dfh2,dfh3,dfh4,dfh5,dfh6,dfh7,dfh8,
+                dfh9,dfh11,dfh12,dfh13,dfh14,dfh15,dfh16,dfh17,dfh18]

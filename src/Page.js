@@ -66,6 +66,11 @@ class Page extends Component {
               return (<HousingPage/>);
             }
             }/>
+            <Route path="/Dfh" exact strict render={
+            ()=>{
+              return (<DfhPage/>);
+            }
+            }/>
             <Route path="/Skjn" exact strict render={
             ()=>{
               return (<SkjnPage/>);
@@ -196,7 +201,7 @@ class NgPage extends Component {
   }
 }
 
-/* class DfhPage extends Component {
+class DfhPage extends Component {
   render() {
     return (
     <div className="container">
@@ -206,7 +211,7 @@ class NgPage extends Component {
     </div>
     );
   }
-} */
+}
 
 class SkjnPage extends Component {
   render() {
@@ -387,7 +392,7 @@ function Skills(){
         <div className="shadow p-3 mb-5 bg-white rounded">
           <h5 className= "text-dark"> Development<strong style={{color:"red"}}>.</strong> </h5> 
           <p className= "text-muted">HTML | CSS | Bootstrap | Javascript | Reactjs</p>
-              <br/><br/>
+              <br/><br/><br/>
             </div>
         </div>
     </div>
@@ -421,6 +426,14 @@ class Projects extends Component{
         projects : [
           
           {
+            id : 9,
+            link : "/Dfh",
+            image : img[7],
+            title: "Sense.i",
+            description: "Technology and Design to improve mental healthcare for patients.",
+            fields: "UX Design | Health Informatics"
+          },
+          {
             id : 4,
             link : "/OMA",
             image : img[3],
@@ -435,14 +448,6 @@ class Projects extends Component{
             title: "BITS",
             description: "Compete with your friends in an engaging and addictive quiz game in a battle of wits",
             fields: "UX Design | Game Design "
-          },
-          {
-            id : 7,
-            link : "/Skjn",
-            image : img[2],
-            title: "Portfolio Website",
-            description: "Personal portfolio website. Grounds to experiment and test new code.",
-            fields: "Development | React"
           },
           {
             id : 1,
@@ -477,13 +482,14 @@ class Projects extends Component{
             fields: "Architecture | Design "
           },
           {
-            id : 9,
-            link : "/",
-            image : img[7],
-            title: "Designing for Happiness",
-            description: "Research and design for detection and mitigation of Clinical Anxiety using CBT",
-            fields: "UX Design | User Research "
+            id : 7,
+            link : "/Skjn",
+            image : img[2],
+            title: "Portfolio Website",
+            description: "Personal portfolio website. Grounds to experiment and test new code.",
+            fields: "Development | React"
           }
+          
         
         
         ]
