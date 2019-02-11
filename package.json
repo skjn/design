@@ -4,13 +4,20 @@
   "private": true,
   "homepage": "https://skjn.github.io/design/",
   "dependencies": {
+    "animate.css": "^3.7.0",
+    "aos": "^2.3.4",
     "gh-pages": "^2.0.1",
     "react": "^16.6.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-anime": "^2.2.0",
     "react-dom": "^16.6.0",
+    "react-lazyload": "^2.5.0",
     "react-player": "^1.7.1",
+    "react-pose": "^4.0.6",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.0"
+    "react-scripts": "2.1.0",
+    "wow.js": "^1.2.2"
   },
   "scripts": {
     "start": "react-scripts start",

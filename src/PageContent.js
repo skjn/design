@@ -11,6 +11,7 @@ import ReactPlayer from 'react-player'
 function ThesisBody() {
   return (
     <div className="container mt-5">
+    <br/><br/><br/>
       <h2 className="text-center">Smart Residential School</h2>
       <p className="text-center text-secondary mb-5">Architecture | Undergraduate Thesis | Academic | Individual</p>
       <div className="row border border-muted mx-auto text-muted">
@@ -138,6 +139,7 @@ function ThesisBody() {
 function UdBody() {
   return (
     <div className="container mt-5">
+    <br/><br/><br/>
       <h2 className="text-center">International Work Center</h2>
       <p className="text-center text-secondary mb-5">Urban Design | Academic | Team of 4</p>
       <div className="row border border-muted mx-auto text-muted">
@@ -263,6 +265,7 @@ function UdBody() {
 function OmaBody() {
   return (
     <div className="container mt-5">
+    <br/><br/><br/>
       <h2 className="text-center">OMA - Office Management Application</h2>
       <p className="text-center text-secondary mb-5">UX Design | Freelance | Individual</p>
       <div className="row border border-muted mx-auto text-muted">
@@ -326,6 +329,7 @@ function OmaBody() {
 function BitsBody() {
   return (
     <div className="container mt-5">
+    <br/><br/><br/>
       <h2 className="text-center">BITS - Battle of the Wits</h2>
       <p className="text-center text-secondary mb-5">UX Design | Game Design | Freelance | Individual</p>
       <div className="row border border-muted mx-auto text-muted">
@@ -395,6 +399,7 @@ function IllustrationsBody() {
 function HousingBody() {
   return (
     <div className="container mt-5">
+    <br/><br/><br/>
       <h2 className="text-center">Inclusive Housing</h2>
       <p className="text-center text-secondary mb-5">Architecture | Housing | Academic | Team of 3</p>
       <div className="row border border-muted mx-auto text-muted">
@@ -519,6 +524,7 @@ function HousingBody() {
 function NgBody() {
   return (
     <div className="container mt-5">
+    <br/><br/><br/>
       <h2 className="text-center">Namami Gange</h2>
       <p className="text-center text-secondary mb-5">Urban Design | Morphogenesis | Professional | Morphogenesis Team</p>
       <div className="row border border-muted mx-auto text-muted">
@@ -607,9 +613,11 @@ function NgBody() {
   )
 }
 
-function DfhBody() {
+
+/*function DfhBody() {
   return (
     <div className="container mt-5">
+    <br/><br/><br/>
       <h2 className="text-center">Sense.i</h2>
       <p className="text-center text-secondary mb-5">UX Design | Health Informatics | Academic | Team of 3</p>
       <div className="row border border-muted mx-auto text-muted">
@@ -845,11 +853,454 @@ function DfhBody() {
         </div>
       </div>
       )
-  }
+  }*/
+
+  function DfhBody() {
+    return (
+      <div className="container mt-5">
+      <br/><br/><br/>
+        <h2 className="text-center">Sense.i</h2>
+        <p className="text-center text-secondary mb-5">UX Design | Health Informatics | Academic | Team of 3</p>
+        <div className="row border border-muted mx-auto text-muted">
+          <div className="col-sm-12 col-md-6 col-lg-3 mt-3 text-center">
+            <p classname="mb-0"><strong>Course</strong> : Interaction Design</p>
+            <p classname="mb-0"><strong>Field</strong> : Health Informatics</p>
+            <p classname="mb-0"><strong>Semester</strong> : Fall 2018</p>
+            <p classname="mb-0"><strong>Type</strong> : Academic Project</p>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-3 mt-3 text-center ">
+            <p classname="mb-0"><strong>Key research Areas</strong></p>
+            <ul className="list-unstyled">
+              <li>Mental Disorders</li>
+              <li>Health Informatics</li>
+              <li>Technology</li>
+              <li>Cognitive Behavior Therapy</li>
+            </ul>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-3 mt-3 text-center">
+            <p classname="mb-0"><strong>Skills</strong></p>
+            <ul className="list-unstyled">
+              <li>User Research</li>
+              <li>Human Centred Design</li>
+              <li>Rapid Prototyping</li>
+              <li>UX Design</li>
+            </ul>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-3 mt-3 text-center">
+            <p classname="mb-0"><strong>Tools</strong></p>
+            <ul className="list-unstyled">
+              <li>Sketch</li>
+              <li>Invision</li>
+              <li>Photoshop</li>
+              <li>After Effects</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div className="row">
+          <div className="ml-3 mr-3">
+            <h4><strong>Project Overview</strong></h4>
+            <p className="text-justify">With an initial idea of helping people with mental disorders get better treatment, this project explores all the aspects related to mental disorders. 
+            Starting from basics of understanding mental disorders, focusing on Anxiety, the research delves into treatment and technology used in the healthcare industry. Apart from literature survey, 
+            input from psychologists is taken to strengthen the research, and develop a strong design direction based on the need of the industry.</p>
+            <p>Team : Shashank Jain   |   Jingyi Cheng   |   Yuqing Chen</p>
+            <p>Duration : 3 months</p>
+            <div className="ml-5 mr-5">
+            <h4 className="text-justify text-center ml-5 mr-5 mt-5" style={{color:"#5885F7"}}><i><strong>"Sense.i is a product that streamlines mental therapy process for both<br/> the patients and the therapist, making treatment more effective and personalized."</strong></i></h4>
+            </div>
+          </div>
+          <div className="container d-flex justify-content-center mt-5 mb-5">
+            <ReactPlayer className="shadow" url='https://player.vimeo.com/video/305797072'/>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12 col-lg-6 text-center"> 
+                <p className="text-center text-secondary">
+                  <a  href="https://projects.invisionapp.com/prototype/cjpbtdplu00gc6j013huy1030/play" target="_blank" style={{color:"#5885F7"}}><strong>Click Here for Final Prototype</strong></a> </p>
+                  <p className="text-secondary">or copy the link below </p>
+                  <p className="text-secondary">https://projects.invisionapp.com/prototype/Sense-i-cjpbtdplu00gc6j013huy1030/play/86d29fe7 </p>
+              </div>
+              <div className="col-sm-12 col-lg-6 text-center"> 
+                <p className="text-center text-secondary">
+                  <a href={img[54]} target="_blank" style={{color:"#5885F7"}}><strong>Click Here for Project Journey Document</strong></a> </p>
+              </div>
+            </div>
+            </div>
+  
+            <div className="container">
+              <hr className="mb-3" />
+              <h4><strong>Problem Definition</strong></h4>
+              <div className="row">
+              <div className="col">
+              <p className="text-justify">Mental illness is a big issue for modern people and it is hard to manage and improve it. Hence, we wanted to create a solution to help people who're in need of relieving such mental burden and bring happiness to people's life. 
+                As we researched, the depth of the problem kept getting vast. We focused on <strong>Anxiety</strong>
+                 to narrow our scope.</p>
+                <div className="ml-5 mr-5">
+            <h4 className="text-justify text-center ml-5 mr-5 mt-5 mb-5" style={{color:"#5885F7"}}><i><strong>"Anxiety disorders are the most common mental health concern in the United States. 
+              An estimated 40 million adults in the U.S. (18%) have an anxiety disorder. Meanwhile, approximately 8% of children and teenagers experience an anxiety disorder. Most people develop symptoms before age 21."  <br/>-- National Alliance on Mental Illness, 2018</strong></i></h4>
+            </div>
+            <div className="container">
+          <hr className="mb-3" />
+          <h4 className="mb-5"><strong>Initial Ideas</strong></h4>
+          <div className="row">
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <p className="text-center"><strong>Real time Data Based</strong></p>
+              <img  className="mb-5" src={img[72]} style={{ maxWidth: "50%" }} />
+              <p className="text-justify"> Detect emotional and anxiety status using body and coice sensors, wearable tattoos, or watches to provide personalized feedback</p>
+              <br />
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <p className="text-center"><strong>Emotional Granularity</strong></p>
+              <img src={img[70]} style={{ maxWidth: "50%" }} className="mb-5"/>
+              <p className="text-justify"> Use indivudals past achievements and experiences to help build mental strength, and understand emotions better. </p>
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <p className="text-center"><strong>Gamification</strong></p>
+              <img src={img[71]} style={{ maxWidth: "50%" }} className="mb-5" />
+              <p className="text-justify">Make the process interesting, to engage the indivudal in the process, making the product treatment more effective.</p>
+            </div>
+          </div>
+        </div>
+              </div>
+              </div>
+            </div>
+            <div className="container">
+              <hr className="mb-3" />
+              <h4><strong>Research</strong></h4>
+              <div className="row">
+                <div className="col-12">
+                  <p className="text-justify">In order to get an effective approach to empower the therapy process, our research included understanding anxiety and the existing treatment including technology 
+                      approaches to provide support. We used different research methods including literature review, competitive analysis and user interview to gain a comprehensive and deep understanding of our problem space. </p>
+                </div>
+              </div>
+              <div className="row">
+              <div className="col-12 text-center mb-5 "><img src={img[53]} style={{ maxWidth: "750px" }} /></div>
+              <div className="col-12 mb-5">An intensive literature review was conducted to understand the problem in depth. We looked into academic papers and official websites such as ADAA (Anxiety and Depression Association of  America) 
+              and the website of counseling and mental health center provided by UT Austin.</div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <img className="justify-content-center shadow rounded " src={img[73]} style={{ maxWidth: "100%" }} />
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <img className="justify-content-center shadow rounded" src={img[74]} style={{ maxWidth: "100%" }} />
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <img className="justify-content-center shadow rounded" src={img[75]} style={{ maxWidth: "100%" }} />
+            </div>
+          </div>
+            </div>
+            <div className="container">
+              <hr className="mb-3" />
+              <h4><strong>Interviews</strong></h4>
+              <div className="row">
+              <div className="col-12 mb-5">As for interviews, We had the chance of speaking to 1 technologist from the Texas material institute at UT Austin who's focusing on bio-integrated tattoos and 2 clinical professionals from Anxiety and Health Behaviors 
+              lab at UT.  Apart from that, we interviewed 6 subclinical people who have anxiety problems.</div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <img className="justify-content-center shadow rounded" src={img[76]} style={{ maxWidth: "100%" }} />
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <img className="justify-content-center shadow rounded" src={img[77]} style={{ maxWidth: "100%" }} />
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <img className="justify-content-center shadow rounded" src={img[78]} style={{ maxWidth: "100%" }} />
+            </div>
+          </div>
+          </div>
+            <div className="container">
+              <hr className="mb-3" />
+              <h4><strong>Learnings and Product Redirection</strong></h4>
+              <div className="row">
+                <div className="col-12">
+                
+                  <p className="text-justify">After analyzing the information from the literature and interviews, we were faced with a huge decision. We could either design for people with sub-clinical anxiety, which had a 
+                  bigger user base but quite alot of applications as competitors, or design for people with clinical anxiety, and undergoing treatment. Through the interviews, we could see a huge gap in the professional mental 
+                  health treatment, which our product could cater too. The challenge was that it would require extensive research, and very few products could be used to learn from for competitive analysis. We decided to go with
+                   2nd option, and design for clinical treatment.</p>
+                </div>
+                <div className="col-12 text-center mt-5"><img src={img[62]} style={{ maxWidth: "80%" }} /></div>
+                <div className="col-12 text-center mt-5"><img src={img[88]} style={{ maxWidth: "80%" }} /></div>
+              </div>
+            </div>
+            
+            <div className="container">
+              <hr className="mb-3" />
+              <h4><strong>User Journey & Pain Points</strong></h4>
+              <div className="row">
+                <div className="col-12">
+                  <p className="text-justify">The CBT treatment journey has been summarised in 8 steps below. Actual journey is much longer, and personalized. </p>
+                </div>
+                <div className="col-12 text-center mb-5"><img src={img[56]} style={{ maxWidth: "80%" }} /></div>
+                <div className="col-12 text-center"><img className="shadow rounded" src={img[55]} style={{ maxWidth: "80%" }} /></div>
+                <div className="col-12">
+                  <p className="text-justify mt-5 mb-5">Below the journey map, we charted out the common issues patients face with completing the assignments given to them during CBT. Common reasons that therapists hear from patients 
+                  for not completing home assignments and other problems they face are :
+                    <ul className="mt-2">
+                      <li>
+                      Patients think assignments are arbitrary
+                      </li>
+                      <li>
+                      atients try hard to give “correct” answer over real answer
+                      </li>
+                      <li>
+                      Inability to do daily tasks and assignments due to unforeseen events like relatives coming over, office dinner, visit to parents house e.t.c.
+                      </li>
+                      <li>
+                      Patients tend to forget the steps to complete a task, and complete half or not complete at all.
+                      </li>
+                      <li>
+                      Have a bad association with the word “homework”
+                      </li>
+                      <li>
+                      Patient does not like reading (for reading based assignments )
+                      </li>
+                    </ul>
+                   </p>
+                   <p className="text-justify mt-5 mb-5">We also identified Pain Points - problems that Therapists face during the treatment process, which our product can target, and streamline the process making therapy more effective.
+                    <ul className="mt-2">
+                      <li>
+                      One size does not fit all - Modification of assignments for different patients
+                      </li>
+                      <li>
+                      Burden of getting the homework done falls on the therapist.
+                      </li>
+                      <li>
+                      Delay in feedback on assignment/homework queries, slowing the treatment process.
+                      </li>
+                      <li>
+                      Difficulty in tracking patient homework.
+                      </li>
+                      <li>
+                      Thought record by patients is mostly based on recollection through memory, which is not very accurate.
+                      </li>
+                    </ul>
+                   </p>
+                </div>
+              </div>
+            </div>
+            <div className="container">
+              <hr className="mb-3" />
+              <h4><strong>User Personas</strong></h4>
+              <div className="row">
+              <div className="col-12 mb-5">Based on the information that we gathered from interviews, we created two personas for both therapists and patients.</div>
+                <div className="row">
+                <div className="col-6 text-center"><img className="shadow" src={img[79]} style={{ maxWidth: "100%" }} /></div>
+                <div className="col-6 text-center"><img className="shadow" src={img[80]} style={{ maxWidth: "95%" }} /></div>
+                </div>
+              </div>
+            </div>
+            <div className="container">
+              <hr className="mb-3" />
+              <h4><strong>Competitive Analysis</strong></h4>
+              <div className="row">
+              <div className="col-12">For further product idea, we did competitieve analysis on the similar products that help therapists managing their work on the market.</div>
+                <div className="col-12 text-center mt-3"><img className="shadow" src={img[57]} style={{ maxWidth: "80%" }} /></div>
+              </div>
+            </div>
+            
+            <div className="container">
+              <hr className="mb-3" />
+              <h4>Ideation & Information Architecture</h4>
+              <div className="row">
+              <div className="col-12">After fully understanding the problem are we were working for, and having a general idea in the direction of the solution, we brainstormed the features that we like to achieve for users. ​
+              Since we decided to first design a product on the therapist side, we chose a computer system to work on.</div>
+                <div className="container mt-3">
+                <div className="row">
+                <div className="col-6 col-sm-12 text-center mt-5 mb-5"><img src={img[91]} style={{ maxWidth: "70%" }} />
+                </div>
+                <div className="col-12">After our brainstorming session, we segregated the features on basis of importance and use, and created an information flow structure for the product.</div>
+                <div className="col-6 col-sm-12 text-center mt-5 mb-5"><img src={img[81]} style={{ maxWidth: "100%" }} />
+                </div>
+              </div>
+              </div>
+              </div>
+            </div>
+            <div className="container">
+              <hr className="mb-3" />
+              <h4><strong>Wireframes</strong></h4>
+              <div className="row">
+              <div className="col-12">Understanding the information flow helped us sketch initial wireframes and discuss pros and cons of each option.</div>
+                <div className="container mt-3">
+                <div className="row">
+                <div className="col-6 col-sm-12 text-center"><img src={img[58]} style={{ maxWidth: "50%" }} />
+                <img src={img[59]} style={{ maxWidth: "45%" }} />
+                </div>
+                <div className="col-6 col-sm-12 text-center mt-5"><img src={img[60]} style={{ maxWidth: "50%" }} />
+                <img src={img[61]} style={{ maxWidth: "50%" }} />
+                </div>
+              </div>
+              </div>
+              </div>
+              <div className="row">
+              <div className="col-12 mb-5 mt-5">After we sketched ideas for how we were visualizing the ideas in our head. We discussed them all, explaining the pros and cons of each. Even with different 
+              people’s multiple ideas, a pattern started to emerge, and further refinement led to our initial specific approach.</div>
+                <div className="container mt-3">
+                <div className="row">
+                <div className="col-6 col-sm-12 text-center"><img className="mr-5 shadow"  src={img[85]} style={{ maxWidth: "45%" }} />
+                <img className="shadow" src={img[84]} style={{ maxWidth: "45%" }} />
+                </div>
+                <div className="col-6 col-sm-12 text-center mt-5"><img  className="mr-5 shadow" src={img[82]} style={{ maxWidth: "45%" }} />
+                <img className="shadow" src={img[83]} style={{ maxWidth: "45%" }} />
+                </div>
+              </div>
+              </div>
+              </div>
+            </div>
+            <div className="container">
+              <hr className="mb-3" />
+              <h4><strong>User Testing and Iterations</strong></h4>
+              <div className="row">
+              <div className="col-12 mb-5">We put usability testing after our mid-fidelity designs. We tested on the two therapists that we interviewed and also sent out to 12 real therapists through usability testing website. 
+              From the feedback and suggestions that we gathered from all the tests, we further made more changes and confirmed the final design.</div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <img className="justify-content-center shadow rounded" src={img[86]} style={{ maxWidth: "100%" }} />
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <img className="justify-content-center shadow rounded" src={img[87]} style={{ maxWidth: "100%" }} />
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+              <img className="justify-content-center shadow rounded" src={img[90]} style={{ maxWidth: "100%" }} />
+            </div>
+          </div>
+          <div className="col-12">
+                  <p className="text-justify mt-5 mb-5"><strong>Feedback</strong> <br/>We got a lot of valuable feedback from our three rounds user testing.
+                    <ul className="mt-2">
+                      <li>
+                     Homework editing needs to be improved.
+                      </li>
+                      <li>
+                      Homework data analysis mapped on anxiety data would be very useful.
+                      </li>
+                      <li>
+                      Physical data should be highlighted to show the anxiety period
+                      </li>
+                      <li>
+                      Documents would be better if categorized by domain
+                      </li>
+                      <li>
+                      Patients details and access need to adhere to HIPAA to protect privacy
+                      </li>
+                      <li>
+                      Content on the homepage is a little bit overwhelmed 
+                      </li>
+                      <li>
+                      Access to patient profile page should be allowed from therapy schedule in the homepage
+                      </li>
+                      <li>
+                      Colors used for status measurement should be more careful
+                      </li>
+                    </ul>
+                   </p>
+                   </div>
+          </div>
+            <div className="container">
+              <hr className="mb-3" />
+              <h4><strong>Final Prototype</strong></h4>
+              <div className="row">
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>Making daily work easier with schedule, notes and automatic 
+                notifications</strong></h3><br/>On every workday, Sense.i provide therapy with timely-arranged appointments, schedule, work notes 
+                and notifications to help therapy start work with everything he needs.</div>
+                <div className="col-8 text-right mt-3">
+                <img className="mb-5 ml-5" src={require('./images/DFH/home.gif')} style={{ maxWidth: "100%" }} />
+                </div>
+                </div>
+                <div className="row">
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>Patient profile with data analysis and progress status</strong></h3><br/>Sense.i strictly follows the HIPAA policy to protect all patients information.
+
+It provides detailed information and data analysis of each patient so that therapy can easily manage the progress of each patient.</div>
+                <div className="col-8 text-right mt-3">
+                <img className="mb-5 ml-5" src={require('./images/DFH/pat.gif')} style={{ maxWidth: "100%" }} />
+                </div>
+                </div>
+                <div className="row">
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>File management to streamline therapy's work</strong></h3><br/>By giving therapy all the homework templates and the choice of self-editable file, Sense.i makes it a lot more convenient for therapy to manage all their files 
+                    and with just a click he can send the homework to the patient with a set amount of time that requires.</div>
+                <div className="col-8 text-right mt-3">
+                <img className="mb-5 ml-5" src={require('./images/DFH/file.gif')} style={{ maxWidth: "100%" }} />
+                </div>
+                </div>
+                <div className="row">
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>Contact and send files to patients easily</strong></h3><br/>Patient and therapy can contact each other more easily through Sense.i. If it's in an emergency, patients can talk to their therapist directly.
+
+And therapists can pull out the file database and editing the files or homework that are needed for the patient and send them at any time with just one click.</div>
+                <div className="col-8 text-right mt-3">
+                <img className="mb-5 ml-5" src={require('./images/DFH/message.gif')} style={{ maxWidth: "100%" }} />
+                </div>
+                </div>
+                <div className="row">
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>Easy management of all the treatment progress for patient's side</strong></h3><br/>Sense.i also personalizes a platform just for patients. Patients can monitor their physical data that are collected by the tattoo.
+
+Doing homework with notifications and instructions and possess all the information that you need to help you get better!
+
+You can contact your therapist is not that hard anymore.</div>
+                <div className="col-8 text-right mt-3">
+                <img className="mb-5 ml-5" src={require('./images/DFH/patient.gif')} style={{ maxWidth: "100%" }} />
+                </div>
+                </div>
+                <div className="container">
+              <hr className="mb-3" />
+              <h4><strong>Reflections and Future Steps</strong></h4>
+              <div className="row">
+              <div className="col-12 mb-5">We gained a lot of promising feedback from professional therapists, and one that we consultant throughout our project is very interested in taking it further. 
+              And we will collaborate with therapists in Anxiety and Stress Clinic at UT Austin to continue pursuing our product. </div>
+            <div className="col-12 text-center">
+              <img className="justify-content-center" src={img[89]} style={{ maxWidth: "100%" }} />
+            </div>
+          </div>
+          <div className="col-12">
+                  <p className="text-justify mt-5 mb-5"><strong>Reflections</strong> <br/>The design journey with my teammates and Prof. Fleming was a rewarding and enriching experience. We gained indepth knowledge about the 
+                  design process, and learned how to overcome problems by research, design and iteration.
+                    <ul className="mt-2">
+                      <li>
+                        <h6 style={{color:"#5885F7"}}><strong>There is no such thing as knowing your audience too much.</strong></h6> 
+                        Every design has a purpose and that is to reach the intended audience effectively. We spent alot of time doing extensive research and understanding
+                        our users and the process in depth. The knwoledge base we created proved to be extremely useful throughout the design journey, allowing us to take 
+                        informed design decisions at each step.   
+                      </li>
+                      <li>
+                        <h6 style={{color:"#5885F7"}}><strong>First design is almost always never a perfect solution. Iteration helps, and is essential.</strong></h6> 
+                        Explorations and re-iterations based and research and user testing is what plays a crucial part in determining how well 
+                        the product would serve its users. Working and changing design direction is better than letting the process stagnate.  
+                      </li>
+                      <li>
+                        <h6 style={{color:"#5885F7"}}><strong>Design is at its best when ideas are discussed freely.</strong></h6> 
+                        While working in a team, creating a productive and idea-oriented environment is crucial. It is important to be sympathetic and take constructive critique on all ideas, even if it is yours. 
+                        When individuals are free to express, the ideas that sprout from the smallest of comments can make a huge impact on the product. 
+                      </li>
+                      <li>
+                        <h6 style={{color:"#5885F7"}}><strong>Defining the problem, documenting, and having clear goals matter.</strong></h6> 
+                        While working on a time bound problem, and that is always, it is useful to have a idea of project timeline. Timeline updates according to product evolution, but having an overview in mind gives context to each step.
+                        Documenting design decisions help maintain an progressive flow, and hourney effcient and fruitful.
+                      </li>
+                    
+                    </ul>
+                   </p>
+                   </div>
+          </div>
+                
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12 col-lg-6 text-center"> 
+                <p className="text-center text-secondary">
+                  <a  href="https://projects.invisionapp.com/prototype/cjpbtdplu00gc6j013huy1030/play" target="_blank" style={{color:"#5885F7"}}><strong>Click Here for Final Prototype</strong></a> </p>
+                  <p className="text-secondary">or copy the link below </p>
+                  <p className="text-secondary">https://projects.invisionapp.com/prototype/Sense-i-cjpbtdplu00gc6j013huy1030/play/86d29fe7 </p>
+              </div>
+              <div className="col-sm-12 col-lg-6 text-center"> 
+                <p className="text-center text-secondary">
+                  <a href={img[54]} target="_blank" style={{color:"#5885F7"}}><strong>Click Here for Project Journey Document</strong></a> </p>
+              </div>
+            </div>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+        )
+    }
 
   function SkjnBody(){
     return (
       <div className="container mt-5">
+      
         <h2 className="text-center">Portfolio Website</h2>
         <p className="text-center text-secondary mb-5">UX + UI Design | Web Development | Individual</p>
         <div className="row border border-muted mx-auto text-muted">

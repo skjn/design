@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './bootstrap-4.1.3-dist/css/bootstrap.min.css';
 import './W3s.css';
 import './Overrides.css';
+import "animate.css/animate.min.css";
+import LazyLoad from 'react-lazyload';
+import ScrollAnimation from 'react-animate-on-scroll';
+import posed from 'react-pose';
+import Anime from 'react-anime';
 import {BrowserRouter as Router } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import ThesisBody, {UdBody, OmaBody, IllustrationsBody, SkjnBody, 
@@ -225,16 +230,22 @@ class SkjnPage extends Component {
   }
 }
 
+
+
 // Components - Reusable
 
-class Navbar extends Component {
+/*class Navbar extends Component {
   render(){  
   return(
-    <div className="row mb-5">
-    <div className="col navbar ">
+    <nav className="navbar sticky-top">
+    <div className="container">
+    <div clasName="navbar-right">
       <ul className="nav nav-tabs mx-auto text-center">
     <li className="nav-item">
-      <a className="nav-link text-secondary" href="/">Work</a>
+      <a className="nav-link text-secondary" href="/">Portfolio</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link text-secondary" href="Writing">Blog</a>
     </li>
     <li className="nav-item">
       <a className="nav-link text-secondary" href="About">About</a>
@@ -242,13 +253,40 @@ class Navbar extends Component {
     <li className="nav-item">
       <a className="nav-link text-secondary" href={img[48]} target="_blank">Resume</a>
     </li>
+    </ul>
+    </div>
+    </div>
+    </nav> 
+    )
+  }
+}*/
+
+class Navbar extends Component {
+  render(){  
+  return(
+    <nav className="navbar fixed-top shadow-sm mb-5">
+    <div className="container">
+    <a id="navImage" href="/">
+    <img className="nav-brand" src = {img[42]} alt= "logo" style={{maxWidth: "8%"}}></img>
+    </a>
+    <div clasName="navbar-nav">
+      <ul className="nav nav-tabs mx-auto text-center">
     <li className="nav-item">
-      <a className="nav-link text-secondary" href="#Footer">Connect</a>
+      <a className="nav-link text-secondary" href="/">Portfolio</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link text-secondary" href="https://medium.com/@shashankjain_61975" target="_blank">Blog</a>
+    </li>
+    <li className="nav-item">
+      <a  className="nav-link text-secondary" data-toggle="modal" data-target="#myModal" href="About">About</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link text-secondary" href={img[48]} target="_blank">Resume</a>
     </li>
     </ul>
-    </div> 
     </div>
-
+    </div>
+    </nav> 
     )
   }
 }
@@ -256,11 +294,12 @@ class Navbar extends Component {
 function Cover() {
     return (  
       <div>
+        <br/><br/><br/>
     <div className = "container text-center mt-5">
       <img src = {img[42]} alt= "logo" className="text-center mb-3" style={{maxWidth: "20%"}}/>
-            <p className="pb-0 mb-0 mt-3 text-muted">Hi, I am <strong>Shashank</strong>, and I</p>
-            <h2 className="pt-0 mt-0 text-muted"><strong style={{color:"#ed4964"}}>Design </strong> Solutions</h2>
-            <p className="text-muted">User Experience | Product | Graphic </p>
+      <br/>
+            <h3 className="pt-0 mt-0 text-muted">Hello ! I am <strong style={{color:"#ed4964"}}>Shashank</strong></h3>
+            <h5 className="text-muted mb-5">A User Experience Designer & Developer</h5>
         </div>
         <div>
     </div>
@@ -271,6 +310,7 @@ function Cover() {
 function AboutMe (){
   return(
     <div className="container mt-5">
+    <br/><br/><br/>
       <div className="row">
         <div className="col-lg-4 col-sm-12 text-center">
           <div className = "shadow p-3 mb-5 bg-white rounded">
@@ -309,11 +349,11 @@ function Education(){
         <div className="col-lg-6 col-sm-12 ml-5">
           <h5>MS in Information Studies - HCI and UX design</h5>
           <p className="text-secondary"><i> School of Information, University of Texas at Austin 
-            <br/>2018 - 2020 (expected) </i></p>
+            <br/>2018 - 2020 <br/> GPA : 4.0</i></p>
               <br/> <br/>
           <h5>Bachelor of Architecture </h5>
           <p className="text-secondary"> <i>School of Planning and Architecture, Delhi 
-            <br/>2011 - 2016 </i></p>
+            <br/>2011 - 2016 <br/> GPA : 4.0</i></p>
         </div>
       </div>
     </div>
@@ -328,6 +368,33 @@ function Experience(){
           <h4>Experience</h4>
         </div>
         <div className="col-lg-6 col-sm-12 ml-5">
+        <div>
+          <h5>Graduate Research Assistant | University of Texas, Austin</h5>
+          <p className="text-secondary"><i>January 2019 - Present</i></p>
+          <div className="text-secondary">
+          <p><i><strong>Projects :</strong> Developing voice interface based educational applications for children for Amazon Alexa using Node.js</i></p>
+          <p><i><strong>Roles :</strong> UX designer and developer</i></p>
+        </div>
+        </div>
+        <br/><br/>
+        <div>
+          <h5>Graduate Research Assistant | University of Texas, Austin</h5>
+          <p className="text-secondary"><i>January 2019 - Present</i></p>
+          <div className="text-secondary">
+          <p><i><strong>Projects :</strong> Volunteer research assistant at Image and Video Computing Lab at UT Austin. Developing web-based tools to support the creation of technologies for Artificial Intelligence and Accessibility.</i></p>
+          <p><i><strong>Roles :</strong> UX designer and developer </i></p>
+        </div>
+        </div>
+        <br/><br/>
+        <div>
+          <h5>Graduate Assistant | University of Texas, Austin</h5>
+          <p className="text-secondary"><i>November 2018 - January 2019</i></p>
+          <div className="text-secondary">
+          <p><i><strong>Projects :</strong> Generated metadata for a large collection of image files ( tiff format ), and maintained an online database of these images for search, preservation, and access using Archivematica </i></p>
+          <p><i><strong>Roles :</strong> UX designer and developer</i></p>
+        </div>
+        </div>
+        <br/><br/>
         <div>
           <h5>Architect | WAL+L Architects, New Delhi</h5>
           <p className="text-secondary"><i>January 2018 - April 2018</i></p>
@@ -372,6 +439,7 @@ function Experience(){
 function Skills(){
   return(
     <div className="container">
+    <ScrollAnimation delay={30} animateIn="fadeInUp">
       <h4 className="text-center mb-5 mt-5 text-dark">Skills</h4>
       <div className="row text-center">
         <div className="col-sm-12 col-md-6 col-lg-4 text-center">
@@ -391,20 +459,20 @@ function Skills(){
         <div className="col-sm-12 col-md-6 col-lg-4 text-center">
         <div className="shadow p-3 mb-5 bg-white rounded">
           <h5 className= "text-dark"> Development<strong style={{color:"red"}}>.</strong> </h5> 
-          <p className= "text-muted">HTML | CSS | Bootstrap | Javascript | Reactjs</p>
+          <p className= "text-muted">React.js | Javascript | HTML | CSS | Bootstrap </p>
               <br/><br/><br/>
             </div>
         </div>
     </div>
+    </ScrollAnimation>
     </div>
   )
 }
 
 function Tile (props) {
   return(
-  
-  <a className="col-sm-12 col-md-6 col-lg-4 w3-hover-opacity"
-   style={{textDecoration : "none"}} href={props.link}>
+  <a className="col-sm-12 col-md-6 col-lg-4 w3-hover-opacity" style={{textDecoration : "none"}} href={props.link}>
+     <ScrollAnimation delay={30} animateIn="fadeInUp">
    <div className = "shadow p-3 mb-5 bg-white rounded">
     <section className="card mx-auto">
       <img className="card-img-top img-fluid" src={props.image}></img>
@@ -415,7 +483,9 @@ function Tile (props) {
       </div>
       </section>
     </div>
+    </ScrollAnimation>
     </a>
+
   )
 }
 
@@ -446,40 +516,8 @@ class Projects extends Component{
             link : "/BITS",
             image : img[8],
             title: "BITS",
-            description: "Compete with your friends in an engaging and addictive quiz game in a battle of wits",
+            description: "Compete with your friends in an engaging quiz game in a battle of wits.",
             fields: "UX Design | Game Design "
-          },
-          {
-            id : 1,
-            link : "/Thesis",
-            image : img[0],
-            title: "Residential School",
-            description: "Study on how technology is effecting education, and architectural response",
-            fields: "Architecture | User Research "
-          },
-          {
-            id : 6,
-            link : "/NG",
-            image : img[4],
-            title: "Namami Gange",
-            description: "Riverfront Redevlopment based on people's expectations and needs from them",
-            fields: "Urban Design | User Research "
-          },
-          {
-            id : 3,
-            link : "/UD",
-            image : img[1],
-            title: "Urban Design",
-            description: "Design of International Work Center, consisting of Offices, Mall, and Hotel",
-            fields: "Architecture | Design "
-          },
-          {
-            id : 2,
-            link : "/Housing",
-            image : img[6],
-            title: "Housing",
-            description: "Inclusive, healthy, and sustainable housing community for all sections of society ",
-            fields: "Architecture | Design "
           },
           {
             id : 7,
@@ -488,10 +526,47 @@ class Projects extends Component{
             title: "Portfolio Website",
             description: "Personal portfolio website. Grounds to experiment and test new code.",
             fields: "Development | React"
+          },
+          {
+            id : 1,
+            link : "/Thesis",
+            image : img[0],
+            title: "Residential School",
+            description: "Smart school based on  new technology and teaching methods. ",
+            fields: "Architecture | User Research "
+          },
+          {
+            id : 6,
+            link : "/NG",
+            image : img[4],
+            title: "Namami Gange",
+            description: "Riverfront Redevlopment along the river Ganges.",
+            fields: "Urban Design | User Research "
+          },
+          {
+            id : 3,
+            link : "/UD",
+            image : img[1],
+            title: "Urban Design",
+            description: "International Work Center, consisting of Offices, Mall, and Hotel.",
+            fields: "Architecture | Design "
+          },
+          {
+            id : 2,
+            link : "/Housing",
+            image : img[6],
+            title: "Housing",
+            description: "Inclusive, healthy, and sustainable housing community. ",
+            fields: "Architecture | Design "
+          },
+          {
+            id : 2,
+            link : "/",
+            image : img[5],
+            title: "AI for Plants",
+            description: "Artificial Intelligence to manage your home garden and plants. ",
+            fields: "Product | Design "
           }
-          
-        
-        
         ]
     }
   }
@@ -524,7 +599,7 @@ class Footer extends Component{
         <div className="col-sm-12 col-md-6 col-lg-4 text-center"> 
             <p className="text-secondary">sjain@utexas.edu</p>
             <p className="text-center text-secondary"><p>
-            <a href="https://www.linkedin.com/in/shashank-jain93/" target="_blank">LinkedIn </a>  |  <a href="https://www.facebook.com/shashank.jain93" target="_blank">Facebook</a></p></p>
+            <a href="https://www.linkedin.com/in/shashank-jain93/" target="_blank">LinkedIn </a>  |  <a href="https://medium.com/@shashankjain_61975" target="_blank">Medium</a>  |  <a href="https://www.instagram.com/shashank.jain93/" target="_blank">Instagram</a>  |  <a href="https://www.facebook.com/shashank.jain93" target="_blank">Facebook</a></p></p>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-4 text-right"> 
             <a className="text-secondary" href={img[48]} target="_blank">
@@ -533,7 +608,7 @@ class Footer extends Component{
         </div>
         </div>
         <div className="col text-center text-secondary mb-3">
-        Design & Code by Shashank Jain | Last update: October 30th, 2018
+        Design & Code by Shashank Jain | Last update: February 08, 2019
         </div>
       </div>
     );

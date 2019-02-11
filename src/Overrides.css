@@ -1,9 +1,27 @@
 @import url("https://use.typekit.net/bxe4eqh.css");
 h1,h2,h3,h4,h5,h6,body,p
 {
-  font-family: "Acumin pro";
+  font-family: "Helvetica";
+  color: #717171;;
 }
 
 .container { 
-    font-family:"Acumin pro";
+    font-family:"Helvetica";
+}
+
+.navbar{
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+.nav.navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#navImage {
+  align-content: left;
+  text-align: left;
 }
