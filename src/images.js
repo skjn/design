@@ -90,6 +90,7 @@ import dfh33 from './images/DFH/11B.jpg';
 import dfh38 from './images/DFH/38.jpg';
 import dfh39 from './images/DFH/39.jpg';
 import dfh40 from './images/DFH/40.png';
+import dfh41 from './images/DFH/41.jpg';
 
 
 
@@ -101,4 +102,4 @@ export default [t1,t2,t3,t4,t5,t6,t7,t8,t9,th1,th2,th3,th4,th5,th6,th7,th8,th9,n
                 ud1,ud2,ud3,ud4,ud5,ud6,ud7,ud8,ud9,ud10,ud11,ud12,ud13,h1,h2,h3,h4,h5,h6,avatar1,
                 om1,om2,om3,bt1,bt2,resume,sk1,sk2,sk3,sk4,dfh1,dfh2,dfh3,dfh4,dfh5,dfh6,dfh7,dfh8,
                 dfh9,dfh11,dfh12,dfh13,dfh14,dfh15,dfh16,dfh17,dfh18,dfh19,dfh20,dfh21,dfh22,dfh23,dfh24,dfh25,dfh26,dfh27,dfh28,dfh29,dfh30,
-                dfh34,dfh35,dfh36,dfh37,dfh31,dfh32,dfh33,dfh38,dfh39,dfh40]
+                dfh34,dfh35,dfh36,dfh37,dfh31,dfh32,dfh33,dfh38,dfh39,dfh40,dfh41]

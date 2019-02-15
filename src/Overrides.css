@@ -1,8 +1,18 @@
 @import url("https://use.typekit.net/bxe4eqh.css");
-h1,h2,h3,h4,h5,h6,body,p
+h1,h2,h3,h4,h5,h6,body
 {
   font-family: "Helvetica";
-  color: #717171;;
+  color: #444444;
+}
+
+p{
+    font-family: "Helvetica";
+    color: #717171;
+}
+
+#heading {
+ font-weight: bold;
+  color: #444444;
 }
 
 .container { 

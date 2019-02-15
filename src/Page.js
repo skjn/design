@@ -13,7 +13,8 @@ import Route from 'react-router-dom/Route';
 import ThesisBody, {UdBody, OmaBody, IllustrationsBody, SkjnBody, 
   HousingBody, DfhBody, NgBody, BitsBody} from './PageContent';
 
-import img from './images'
+import img from './images';
+import Cover from './Cover';
 
 
 class Page extends Component {
@@ -264,10 +265,10 @@ class SkjnPage extends Component {
 class Navbar extends Component {
   render(){  
   return(
-    <nav className="navbar fixed-top shadow-sm mb-5">
+    <nav className="navbar fixed-top shadow-sm">
     <div className="container">
     <a id="navImage" href="/">
-    <img className="nav-brand" src = {img[42]} alt= "logo" style={{maxWidth: "8%"}}></img>
+    <img className="nav-brand" src = {img[42]} alt= "logo" style={{maxWidth: "7%"}}></img>
     </a>
     <div clasName="navbar-nav">
       <ul className="nav nav-tabs mx-auto text-center">
@@ -291,7 +292,9 @@ class Navbar extends Component {
   }
 }
 
-function Cover() {
+
+
+/*function Cover() {
     return (  
       <div>
         <br/><br/><br/>
@@ -306,6 +309,7 @@ function Cover() {
     </div>
     )
   }
+  */
 
 function AboutMe (){
   return(
@@ -489,6 +493,8 @@ function Tile (props) {
   )
 }
 
+
+
 class Projects extends Component{
   constructor(props) {
     super(props)
@@ -563,13 +569,16 @@ class Projects extends Component{
             id : 2,
             link : "/",
             image : img[5],
-            title: "AI for Plants",
-            description: "Artificial Intelligence to manage your home garden and plants. ",
+            title: "Agriculture Intelligence(AI)",
+            description: "Artificial Intelligence to assist Urban Farming and Home Gardens ",
             fields: "Product | Design "
           }
         ]
     }
   }
+
+
+
 render() {
   return (
        <div className="row">
