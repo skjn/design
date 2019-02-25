@@ -1,12 +1,12 @@
 @import url("https://use.typekit.net/bxe4eqh.css");
 h1,h2,h3,h4,h5,h6,body
 {
-  font-family: "Helvetica";
+  font-family: "Roboto";
   color: #444444;
 }
 
 p{
-    font-family: "Helvetica";
+    font-family: "Roboto";
     color: #717171;
 }
 
@@ -15,8 +15,16 @@ p{
   color: #444444;
 }
 
+.container-fluid {
+  width: 100%;
+  padding-right: 200px;
+  padding-left: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container { 
-    font-family:"Helvetica";
+    font-family:"Roboto";
 }
 
 .navbar{
@@ -35,3 +43,4 @@ p{
   align-content: left;
   text-align: left;
 }
+

@@ -5,7 +5,7 @@ import './Overrides.css';
 
 
 
-class Cover extends Component{
+/*class Cover extends Component{
     constructor(props) {
       super(props)
 
@@ -44,6 +44,31 @@ render(){
       <br/>
             <h3 className="pt-0 mt-0 text-muted">Hello ! I am <strong style={{color:"#ed4964"}}>Shashank</strong></h3>
             <h5 className="text-muted mb-5">A User Experience Designer & Developer</h5>
+        </div>
+    </div>
+    );
+}
+}*/
+
+class Cover extends Component{
+
+render(){
+
+    return (  
+      <div>
+        <br/><br/><br/>
+    <div className = "text-left mt-5 mb-3">
+      <br/>
+            <h1 className="pt-0 mt-0">Hello ! I am <strong style={{color:"#ed4964"}}>Shashank</strong></h1>
+            <h4 className="pt-0 mt-0" style={{color:"#ed4964"}}> Product Designer // UX + UI + Interactions </h4>
+            <br/>
+            
+            <h4 className="text-muted mb-5">A multidisciplinary designer & researcher currently studying HCI at UT Austin, I bring forth concepts and experiences spanning across various fields to solve challenging problems with empathy and innovation.
+</h4>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
     </div>
     );

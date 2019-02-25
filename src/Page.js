@@ -318,7 +318,7 @@ function AboutMe (){
       <div className="row">
         <div className="col-lg-4 col-sm-12 text-center">
           <div className = "shadow p-3 mb-5 bg-white rounded">
-          <img src={img[42]} className="rounded-circle border" style={{maxWidth: "100%"}} alt="Display" />  
+          <img src={img[99]} className="rounded-circle border" style={{maxWidth: "100%"}} alt="Display" />  
           </div>
           <h3>Hello, nice to meet you.</h3>
           <p>I am Shashank, and I design experiences.</p>

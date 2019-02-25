@@ -906,8 +906,10 @@ function NgBody() {
             input from psychologists is taken to strengthen the research, and develop a strong design direction based on the need of the industry.</p>
             <p>Team : Shashank Jain   |   Jingyi Cheng   |   Yuqing Chen</p>
             <p>Duration : 3 months</p>
+            <div className="col-6 col-sm-12 text-center">
+                <img src={img[94]} style={{ maxWidth: "80%" }} />
+                </div>
             <div className="ml-5 mr-5">
-            <h4 className="text-justify text-center ml-5 mr-5 mt-5" style={{color:"#5885F7"}}><i><strong>"Sense.i is a product that streamlines mental therapy process for both<br/> the patients and the therapist, making treatment more effective and personalized."</strong></i></h4>
             </div>
           </div>
           <div className="container d-flex justify-content-center mt-5 mb-5">
@@ -918,8 +920,6 @@ function NgBody() {
               <div className="col-sm-12 col-lg-6 text-center"> 
                 <p className="text-center text-secondary">
                   <a  href="https://projects.invisionapp.com/prototype/cjpbtdplu00gc6j013huy1030/play" target="_blank" style={{color:"#5885F7"}}><strong>Click Here for Final Prototype</strong></a> </p>
-                  <p className="text-secondary">or copy the link below </p>
-                  <p className="text-secondary">https://projects.invisionapp.com/prototype/Sense-i-cjpbtdplu00gc6j013huy1030/play/86d29fe7 </p>
               </div>
               <div className="col-sm-12 col-lg-6 text-center"> 
                 <p className="text-center text-secondary">
@@ -939,12 +939,10 @@ function NgBody() {
                  <div className="col-12 text-center mt-5">
                  <img  src={img[92]} style={{ maxWidth: "50%" }} />
                  </div>
-                <div className="ml-5 mr-5">
-                
-            <h4 className="text-justify text-center ml-5 mr-5 mt-5 mb-5" style={{color:"#5885F7"}}><i><strong>"Anxiety disorders are the most common mental health concern in the United States. 
-              An estimated 40 million adults in the U.S. (18%) have an anxiety disorder. Meanwhile, approximately 8% of children and teenagers experience an anxiety disorder. Most people develop symptoms before age 21."  <br/>-- National Alliance on Mental Illness, 2018</strong></i></h4>
-            </div>
-            <div className="container">
+                 <div className="col-6 col-sm-12 text-center">
+                <img src={img[95]} style={{ maxWidth: "80%" }} />
+                </div>
+            
           <hr className="mb-3" />
           <h5 className="mb-5"><strong>Initial Ideas</strong></h5>
           <div className="row">
@@ -965,7 +963,7 @@ function NgBody() {
               <p className="text-justify">Make the process interesting, to engage the indivudal in the process, making the product treatment more effective.</p>
             </div>
           </div>
-        </div>
+       
               </div>
               </div>
             </div>
@@ -1013,7 +1011,7 @@ function NgBody() {
           </div>
             <div className="container">
               <hr className="mb-3" />
-              <h5><strong>Learnings and Product Redirection</strong></h5>
+              <h5><strong>Initital Research Findings & Product Redirection</strong></h5>
               <div className="row">
                 <div className="col-12">
                 
@@ -1022,11 +1020,20 @@ function NgBody() {
                   health treatment, which our product could cater too. The challenge was that it would require extensive research, and very few products could be used to learn from for competitive analysis. We decided to go with
                    2nd option, and design for clinical treatment.</p>
                 </div>
-                <div className="col-12 text-center mt-5"><img src={img[62]} style={{ maxWidth: "80%" }} /></div>
-                <div className="col-12 text-center mt-5"><img src={img[88]} style={{ maxWidth: "80%" }} /></div>
+                <div className="col-12 text-center mt-5"><img src={img[96]} style={{ maxWidth: "80%" }} /></div>
               </div>
             </div>
-            
+            <div className="container">
+              <hr className="mb-3" />
+              <h5><strong>Key Insights</strong></h5>
+              <div className="row">
+                <div className="col-12">
+                
+                  <p className="text-justify">Our synthesis and analysis based on the research material helped us identify problems that patients and therapists face during the treatment process, which our product can target to streamline the process, making therapy more effective.​</p>
+                </div>
+                <div className="col-12 text-center mt-5"><img src={img[97]} style={{ maxWidth: "80%" }} /></div>
+              </div>
+            </div>
             <div className="container">
               <hr className="mb-3" />
               <h2 id="heading" className="mb-5 text-center"> Design Process</h2>
@@ -1113,10 +1120,7 @@ function NgBody() {
                 <div className="container mt-3">
                 <div className="row">
                 <div className="col-6 col-sm-12 text-center mt-5 mb-5"><img src={img[91]} style={{ maxWidth: "70%" }} />
-                </div>
-                <div className="col-12">After our brainstorming session, we segregated the features on basis of importance and use, and created an information flow structure for the product.</div>
-                <div className="col-6 col-sm-12 text-center mt-5 mb-5"><img src={img[81]} style={{ maxWidth: "100%" }} />
-                </div>
+                
               </div>
               </div>
               </div>
@@ -1125,23 +1129,30 @@ function NgBody() {
               <hr className="mb-3" />
               <h5><strong>Wireframes</strong></h5>
               <div className="row">
-              <div className="col-12"><p>Understanding the information flow helped us sketch initial wireframes and discuss pros and cons of each option.</p></div>
+              <div className="col-12"><p>To fill the gap in the current therapy work-flow, to develop a product direction, we brainstormed ideas and features our product can have. Each team member sketched their ideas and produced wireframes</p></div>
                 <div className="container mt-3">
                 <div className="row">
                 <div className="col-6 col-sm-12 text-center"><img src={img[58]} style={{ maxWidth: "50%" }} />
                 <img src={img[59]} style={{ maxWidth: "45%" }} />
                 </div>
-                <div className="col-6 col-sm-12 text-center mt-5"><img src={img[60]} style={{ maxWidth: "50%" }} />
-                <img src={img[61]} style={{ maxWidth: "50%" }} />
+                <div className="col-12 mt-5"><p>After we sketched ideas for how we were visualizing the ideas in our head. We discussed them all, explaining the pros and cons of each. Even with different people’s multiple ideas, a pattern started to emerge, and further refinement led to our initial specific approach.</p></div>
+                <div className="col-12 text-center mt-3"><img src={img[98]} style={{ maxWidth: "80%" }} /></div>
                 </div>
+                <div className="col-12 mt-5">After our brainstorming session, we segregated the features on basis of importance and use, and created an information flow structure for the product.</div>
+                <div className="col-6 col-sm-12 text-center mt-5 mb-5"><img src={img[81]} style={{ maxWidth: "100%" }} />
+                </div>
+                
               </div>
               </div>
               </div>
               <div className="row">
-              <div className="col-12 mb-5 mt-5"><p>After we sketched ideas for how we were visualizing the ideas in our head. We discussed them all, explaining the pros and cons of each. Even with different 
-              people’s multiple ideas, a pattern started to emerge, and further refinement led to our initial specific approach.</p></div>
+              <div className="col-12 mt-5"><h5><strong>Iterative Development</strong></h5></div>
+              <div className="col-12"><p>We converted that information flow into low fidelity screens, and kept iterating with feedbacks and critiques.</p></div>
                 <div className="container mt-3">
                 <div className="row">
+                <div className="col-6 col-sm-12 text-center mt-3 mb-5"><img src={img[60]} style={{ maxWidth: "50%" }} />
+                <img src={img[61]} style={{ maxWidth: "50%" }} />
+                </div>
                 <div className="col-6 col-sm-12 text-center"><img className="mr-5 shadow"  src={img[85]} style={{ maxWidth: "45%" }} />
                 <img className="shadow" src={img[84]} style={{ maxWidth: "45%" }} />
                 </div>
