@@ -127,7 +127,7 @@ class ThesisPage extends Component {
   render() {
     return (
     <div className="container">
-      <Navbar />
+      <Navbar3 />
       <ThesisBody/>
       <Footer/>
     </div>
@@ -139,7 +139,7 @@ class OmaPage extends Component {
   render() {
     return (
     <div className="container">
-      <Navbar />
+      <Navbar3 />
       <OmaBody/>
       <Footer/>
     </div>
@@ -151,7 +151,7 @@ class HousingPage extends Component {
   render() {
     return (
     <div className="container">
-      <Navbar />
+      <Navbar3 />
       <HousingBody/>
       <Footer/>
     </div>
@@ -163,7 +163,7 @@ class UdPage extends Component {
   render() {
     return (
     <div className="container">
-      <Navbar />
+      <Navbar3 />
       <UdBody/>
       <Footer/>
     </div>
@@ -175,7 +175,7 @@ class BitsPage extends Component {
   render() {
     return (
     <div className="container">
-      <Navbar />
+      <Navbar3 />
       <BitsBody/>
       <Footer/>
     </div>
@@ -187,7 +187,7 @@ class IllustrationsPage extends Component {
   render() {
     return (
     <div className="container">
-      <Navbar />
+      <Navbar3 />
       <IllustrationsBody/>
       <Footer/>
     </div>
@@ -199,7 +199,7 @@ class NgPage extends Component {
   render() {
     return (
     <div className="container">
-      <Navbar />
+      <Navbar3 />
       <NgBody/>
       <Footer/>
     </div>
@@ -211,7 +211,7 @@ class DfhPage extends Component {
   render() {
     return (
     <div className="container">
-      <Navbar />
+      <Navbar3 />
       <DfhBody/>
       <Footer/>
     </div>
@@ -223,7 +223,7 @@ class SkjnPage extends Component {
   render() {
     return (
     <div className="container">
-      <Navbar />
+      <Navbar3 />
       <SkjnBody/>
       <Footer/>
     </div>
@@ -311,6 +311,36 @@ class Navbar2 extends Component {
     </li>
     <li className="nav-item">
       <a  className="nav-link text-danger" data-toggle="modal" data-target="#myModal" href="About">About</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link text-dark" href={img[48]} target="_blank">Resume</a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </nav> 
+    )
+  }
+}
+
+class Navbar3 extends Component {
+  render(){  
+  return(
+    <nav className="navbar fixed-top shadow-sm">
+    <div className="container">
+    <a id="navImage" href="/">
+    <img className="nav-brand" src = {img[42]} alt= "logo" style={{maxWidth: "7%"}}></img>
+    </a>
+    <div clasName="navbar-nav">
+      <ul className="nav nav-tabs mx-auto text-center">
+    <li className="nav-item">
+      <a className="nav-link text-dark" href="/">Portfolio</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link text-dark" href="https://medium.com/@shashankjain_61975" target="_blank">Blog</a>
+    </li>
+    <li className="nav-item">
+      <a  className="nav-link text-dark" data-toggle="modal" data-target="#myModal" href="About">About</a>
     </li>
     <li className="nav-item">
       <a className="nav-link text-dark" href={img[48]} target="_blank">Resume</a>
