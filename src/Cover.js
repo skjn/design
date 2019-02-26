@@ -48,7 +48,11 @@ render(){
     </div>
     );
 }
-}*/
+}
+
+<ScrollAnimation delay={30} animateIn="fadeInUp">
+  </ScrollAnimation>
+*/
 
 class Cover extends Component{
 
@@ -57,13 +61,13 @@ render(){
     return (  
       <div>
         <br/><br/><br/>
-    <div className = "text-left mt-5 mb-3">
+    <div className = "text-left mt-3">
       <br/>
-            <h1 className="pt-0 mt-0">Hello ! I am <strong style={{color:"#ed4964"}}>Shashank</strong></h1>
+            <h1 className="pt-0 mt-0">Hello! I am <strong style={{color:"#ed4964"}}>Shashank</strong></h1>
             <h4 className="pt-0 mt-0" style={{color:"#ed4964"}}> Product Designer // UX + UI + Interactions </h4>
             <br/>
             
-            <h4 className="text-muted mb-5">A multidisciplinary designer & researcher currently studying HCI at UT Austin, I bring forth concepts and experiences spanning across various fields to solve challenging problems with empathy and innovation.
+            <h4 className="text-muted">A multidisciplinary designer & researcher currently studying HCI at UT Austin, I bring empathy and perspective to design innovative solutions to challenging problems. Being a passionate and motivated individual, I strive to deliver exceptional product experiences by uncovering problems through intensive research and iterative refinement. 
 </h4>
             <br/>
             <br/>

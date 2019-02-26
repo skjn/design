@@ -111,7 +111,7 @@ class AboutPage extends Component {
   render() {
     return (
   <div className="container">
-         <Navbar />
+         <Navbar2 />
          <AboutMe/>
          <hr className="mb-5 mt-5"/>
          <Education/>
@@ -273,16 +273,47 @@ class Navbar extends Component {
     <div clasName="navbar-nav">
       <ul className="nav nav-tabs mx-auto text-center">
     <li className="nav-item">
-      <a className="nav-link text-secondary" href="/">Portfolio</a>
+      <a className="nav-link text-danger" href="/">Portfolio</a>
     </li>
     <li className="nav-item">
-      <a className="nav-link text-secondary" href="https://medium.com/@shashankjain_61975" target="_blank">Blog</a>
+      <a className="nav-link text-dark" href="https://medium.com/@shashankjain_61975" target="_blank">Blog</a>
     </li>
     <li className="nav-item">
-      <a  className="nav-link text-secondary" data-toggle="modal" data-target="#myModal" href="About">About</a>
+      <a  className="nav-link text-dark" data-toggle="modal" data-target="#myModal" href="About">About</a>
     </li>
     <li className="nav-item">
-      <a className="nav-link text-secondary" href={img[48]} target="_blank">Resume</a>
+      <a className="nav-link text-dark" href={img[48]} target="_blank">Resume</a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </nav> 
+    )
+  }
+}
+
+
+class Navbar2 extends Component {
+  render(){  
+  return(
+    <nav className="navbar fixed-top shadow-sm">
+    <div className="container">
+    <a id="navImage" href="/">
+    <img className="nav-brand" src = {img[42]} alt= "logo" style={{maxWidth: "7%"}}></img>
+    </a>
+    <div clasName="navbar-nav">
+      <ul className="nav nav-tabs mx-auto text-center">
+    <li className="nav-item">
+      <a className="nav-link text-dark" href="/">Portfolio</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link text-dark" href="https://medium.com/@shashankjain_61975" target="_blank">Blog</a>
+    </li>
+    <li className="nav-item">
+      <a  className="nav-link text-danger" data-toggle="modal" data-target="#myModal" href="About">About</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link text-dark" href={img[48]} target="_blank">Resume</a>
     </li>
     </ul>
     </div>
@@ -443,7 +474,7 @@ function Experience(){
 function Skills(){
   return(
     <div className="container">
-    <ScrollAnimation delay={30} animateIn="fadeInUp">
+    
       <h4 className="text-center mb-5 mt-5 text-dark">Skills</h4>
       <div className="row text-center">
         <div className="col-sm-12 col-md-6 col-lg-4 text-center">
@@ -468,7 +499,7 @@ function Skills(){
             </div>
         </div>
     </div>
-    </ScrollAnimation>
+  
     </div>
   )
 }
@@ -476,7 +507,7 @@ function Skills(){
 function Tile (props) {
   return(
   <a className="col-sm-12 col-md-6 col-lg-4 w3-hover-opacity" style={{textDecoration : "none"}} href={props.link}>
-     <ScrollAnimation delay={30} animateIn="fadeInUp">
+    
    <div className = "shadow p-3 mb-5 bg-white rounded">
     <section className="card mx-auto">
       <img className="card-img-top img-fluid" src={props.image}></img>
@@ -487,7 +518,6 @@ function Tile (props) {
       </div>
       </section>
     </div>
-    </ScrollAnimation>
     </a>
 
   )
