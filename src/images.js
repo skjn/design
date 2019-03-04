@@ -98,6 +98,12 @@ import dfh45 from './images/DFH/45.jpg';
 import dfh46 from './images/DFH/46.jpg';
 import dfh47 from './images/DFH/47.jpg';
 import am1 from './images/Display2.png';
+import om4 from './images/OMA/4.jpg';
+import om5 from './images/OMA/5.jpg';
+import om6 from './images/OMA/6.jpg';
+import om7 from './images/OMA/7.jpg';
+import om8 from './images/OMA/8.jpg';
+import om9 from './images/OMA/9.jpg';
 
 
 
@@ -109,4 +115,5 @@ export default [t1,t2,t3,t4,t5,t6,t7,t8,t9,th1,th2,th3,th4,th5,th6,th7,th8,th9,n
                 ud1,ud2,ud3,ud4,ud5,ud6,ud7,ud8,ud9,ud10,ud11,ud12,ud13,h1,h2,h3,h4,h5,h6,avatar1,
                 om1,om2,om3,bt1,bt2,resume,sk1,sk2,sk3,sk4,dfh1,dfh2,dfh3,dfh4,dfh5,dfh6,dfh7,dfh8,
                 dfh9,dfh11,dfh12,dfh13,dfh14,dfh15,dfh16,dfh17,dfh18,dfh19,dfh20,dfh21,dfh22,dfh23,dfh24,dfh25,dfh26,dfh27,dfh28,dfh29,dfh30,
-                dfh34,dfh35,dfh36,dfh37,dfh31,dfh32,dfh33,dfh38,dfh39,dfh40,dfh41,dfh42,dfh43,dfh44,dfh45,dfh46,dfh47,am1]
+                dfh34,dfh35,dfh36,dfh37,dfh31,dfh32,dfh33,dfh38,dfh39,dfh40,dfh41,dfh42,dfh43,dfh44,dfh45,dfh46,dfh47,am1,
+                om4,om5,om6,om7,om8,om9]

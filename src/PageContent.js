@@ -5,7 +5,7 @@ import './bootstrap-4.1.3-dist/css/bootstrap.min.css';
 
 import img from './images'
 import ReactPlayer from 'react-player'
-
+import ModalImage from 'react-modal-image'
 
 
 function ThesisBody() {
@@ -296,31 +296,163 @@ function OmaBody() {
         <div className="col-sm-12 col-md-6 col-lg-3 mt-3 text-center">
           <p classname="mb-0"><strong>Tools</strong></p>
           <ul className="list-unstyled">
-            <li>Paper Sketching</li>
-            <li>AdobeXD</li>
+            <li>Principle</li>
+            <li>Sketch</li>
             <li>Photoshop</li>
-            <li>Illustrator</li>
+            <li>Sketching</li>
           </ul>
         </div>
       </div>
       <hr />
       <div className="row">
         <div className="ml-3">
-          <h4>Design Brief</h4>
+        <h2 id="heading" className="mb-5 text-center"> Design Brief</h2>
+        <h4>Concept</h4>
           <p className="text-justify">Managing professional work can get tough. Specially when there are a lot of tasks to do, meeting to attend, and a team to coordinate with. To make these things easier, an idea is developed
             for a mobile application that lets you do everything, manage everything, and stay updated from anywhere, with a click of a button.</p>
           <p className="text-justify">Few features of the app includes a work based discussion platform, team chats, coordinated tasks and project lists, meeting rooms information booking access, food information in office cafetarias,
             , and other colleague information to coordinate carpooling, projects, and plans.  </p>
         </div>
+        
         <div className="container">
           <hr className="mb-3" />
-          <h4>Development</h4>
+          <h4>Features</h4>
           <div className="row">
+            <div className="col-12 mb-3"><img src={img[100]} style={{ maxWidth: "100%" }} /></div>
+          </div>
+        </div>
+        <div className="container">
+              <hr className="mb-3" />
+              <h2 id="heading" className="mb-5 text-center"> Final Prototype</h2>
+              <div className="row">
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#FFC500"}}><strong>Making daily work easier with schedule, notes, live team chat and automatic 
+                notifications</strong></h3><br/>Switch seamlessly between 2 cards on the homepage, one that tracks your days targets, and other your team's chat group. 
+                Also add tasks and meetings, assign tasks to people, and check updates through ease.</div>
+                <div className="col-8 text-right mt-3">
+                <img className="mb-5 ml-5 mr-5" src={require('./images/OMA/gif3.gif')} style={{ maxWidth: "39%" }} />
+                </div>
+                </div>
+                <div className="row">
+                <div className="col-8 text-left mt-3">
+                <img className="mb-5 ml-5 mr-5" src={require('./images/OMA/gif2.gif')} style={{ maxWidth: "40%" }} />
+                </div>
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#FFC500"}}><strong>Book Meeting Rooms with ease</strong></h3><br/>Never go searching for an empty room when the client has arrived. OMA provides an updated schedule of meeting rooms, with the facilties in each, so that you can book
+              one as and when you want beforehand.</div>
+                
+                </div>
+                <div className="row">
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#FFC500"}}><strong>Stay updated with office news and participate in discussions</strong></h3><br/>Stay updated with ongoing discussions on important work place topics, and participate 
+              to make a difference in decisions with ease and on the go.</div>
+                <div className="col-8 text-right mt-3">
+                <img className="mb-5 ml-5 mr-5" src={require('./images/OMA/gif1.gif')} style={{ maxWidth: "40%" }} />
+                </div>
+                </div>
+                <div className="col-12 text-center">
+              <img className="justify-content-center mt-5" src={img[105]} style={{ maxWidth: "100%" }} />
+            </div>
+                </div>
+        <div className="container">
+        <hr/>
+        <h2 id="heading" className="mb-5 text-center"> Research</h2>
+          <div className="row">
+          <p className="col-12 text-justify"><strong>Why the need ?</strong><br/> The idea originated from my experience while working as an architect. I faced the problems of managing multiple platforms and 
+          lack of interaction opportunties, which led to my initiative to make an attempt to solve this issue. To gain further feedback, I conducted interviews amongst my colleagues, and found they 
+          feel that the problem exists, which they attributed to general corporate culture.</p>
+          <div className="col-12 mb-3"><img src={img[101]} style={{ maxWidth: "100%" }} /></div>
+          </div>
+          </div>
+          <div className="container">
+          <hr className="mb-3" />
+          <h4>Key Insights</h4>
+          <div className="row">
+          <p className="col-12 text-justify">After interviewing 20 people from various levels in the company, and few contacts from other companies, I derived a few key Insights
+          that were common to all. These issues fitted in 3 broad categories. </p>
+            <div className="col-xs-1 mb-3 text-center"><img src={img[102]} style={{ maxWidth: "80%" }} /></div>
+          </div>
+        </div>
+          <div className="container">
+        <hr/>
+        <h5 className="mb-5">User Personas</h5>
+        <div className="row">
+              <div className="col-xs-1 text-center"><p></p></div>
+                <div className="row">
+                <div className="col-12 text-center"><ModalImage className="shadow" small={img[103]} large={img[103]} /></div>
+                </div>
+              </div>
+          </div>
+          <div className="container">
+        <hr/>
+        <h5 className="mb-5">Ideation</h5>
+        <div className="row">
+              <div className="col-12 mb-5"><p>After understanding the problem space and the target user to a certain depth, I created mind maps and diagrams to brainstorm ideas that 
+                could help target the problem.</p></div>
+                <div className="row">
+                <div className="col-12 text-center"><ModalImage className="" small={img[104]} large={img[104]} /></div>
+                </div>
+              </div>
+          </div>
+          <div className="container">
+          <hr className="mb-3" />
+          <h4>First Iteration</h4>
+          <div className="row">
+          <div className="col-12 mb-5"><p>After getting my ideas down on paper, and creating a flow for important primary and secondary features, I created 
+            wireframes to visualize my ideas, and translated them to low fidelity diagrams for usability testing.</p></div>
             <div className="col-12 mb-3"><img src={img[43]} style={{ maxWidth: "100%" }} /></div>
             <div className="col-12 mb-3"><img src={img[44]} style={{ maxWidth: "100%" }} /></div>
             <div className="col-12 mb-3"><img src={img[45]} style={{ maxWidth: "100%" }} /></div>
           </div>
         </div>
+        
+        <div className="container">
+              <hr className="mb-3" />
+              <h5>User Testing and Iterations</h5>
+              <div className="row">
+              <div className="col-12 "><p>I put usability testing after low fidelity designs on colleagues, and realized there were major design problems regarding the primary features and information flow.
+              </p>
+              </div>
+             
+             <p> <ul className="mt-2">
+                      <li>
+                    Landing page needs to be redesigned for current tasks, meeting and work status. Social platform is a secondary feature, and need not be given so much importance.
+                      </li>
+                      <li>
+                     Not every employee wants a public employee profile, and carpooling functionality. It should be on voluntary opt-in basis.
+                      </li>
+                      <li>
+                      The User Interface design and visual design was unimpressive, and not appealing. The clutter needs to be reduced to enhance clarity and appeal.
+                      </li>
+                      <li>
+                      Icons need to be reselected for more recognizability. Recognition is faster than recall.
+                      </li>
+                    </ul>
+                    </p>
+
+                    <div className="col-12">
+                  <p className="text-justify mt-5 mb-5"><strong>Reflections</strong> <br/>The design journey with my teammates and Prof. Fleming was a rewarding and enriching experience. We gained indepth knowledge about the 
+                  design process, and learned how to overcome problems by research, design and iteration.
+                    <ul className="mt-2">
+                      <li>
+                        <h6 style={{color:"#ffc500"}}><strong>User research is more than just a first step.</strong></h6> 
+                        User research is alot more than a first step. It is the backbone of every design decision you make in your journey. I initially was content with some user research, but 
+                        durign various stages, I found myself conducting more research in search of information to make informed decisions in design.   
+                      </li>
+                      <li>
+                        <h6 style={{color:"#ffc500"}}><strong>First design is almost always never a perfect solution. Iteration helps, and is essential.</strong></h6> 
+                        It is hard to let go of first designs, but keeping them intact is a sure shot failure. Explorations and re-iterations based and research and user testing is what plays a crucial part in determining how well 
+                        the product would serve its users. Working and changing design direction is better than letting the process stagnate.  
+                      </li>
+                      <li>
+                        <h6 style={{color:"#ffc500"}}><strong>Understand the problem and goal of each step before jumping in action.</strong></h6> 
+                        Many a times, I found myself to eager to start working on the solution, but through the journey, realized that each stage and process has a different aim. 
+                        Design solution is the last stage, and an important but end stage of the process. Outcomes from each stage are different, and focusing and acheiving those targets 
+                        defines a successful stage completion.
+                      </li>
+                    
+                    </ul>
+                   </p>
+                   </div>
+          </div>
+          </div>
       </div>
     </div>
   )
@@ -927,7 +1059,6 @@ function NgBody() {
               </div>
             </div>
             </div>
-  
             <div className="container">
               <hr className="mb-3" />
               <h5><strong>Problem Definition</strong></h5>
@@ -965,7 +1096,7 @@ function NgBody() {
           </div>
        
               </div>
-              </div>
+            </div>
             </div>
             <div className="container" >
               <hr className="mb-3" />
@@ -982,13 +1113,13 @@ function NgBody() {
               <div className="col-12 mb-5"><p>An intensive literature review was conducted to understand the problem in depth. We looked into academic papers and official websites such as ADAA (Anxiety and Depression Association of  America) 
               and the website of counseling and mental health center provided by UT Austin.</p></div>
             <div className="col-lg-4 md-6 sm-12 text-center">
-              <img className="justify-content-center shadow rounded " src={img[73]} style={{ maxWidth: "100%" }} />
+            <ModalImage className="justify-content-center shadow rounded " small={img[73]} large={img[73]} alt="Research Compilation"/>
             </div>
             <div className="col-lg-4 md-6 sm-12 text-center">
-              <img className="justify-content-center shadow rounded" src={img[74]} style={{ maxWidth: "100%" }} />
+            <ModalImage className="justify-content-center shadow rounded " small={img[74]} large={img[74]} alt="Research Compilation"/>
             </div>
             <div className="col-lg-4 md-6 sm-12 text-center">
-              <img className="justify-content-center shadow rounded" src={img[75]} style={{ maxWidth: "100%" }} />
+            <ModalImage className="justify-content-center shadow rounded " small={img[75]} large={img[75]} alt="Research Compilation"/>
             </div>
           </div>
             </div>

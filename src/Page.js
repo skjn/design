@@ -268,15 +268,15 @@ class Navbar extends Component {
     <nav className="navbar fixed-top shadow-sm">
     <div className="container">
     <a id="navImage" href="/">
-    <img className="nav-brand" src = {img[42]} alt= "logo" style={{maxWidth: "7%"}}></img>
+    <img className="nav-brand" src = {img[42]} alt= "logo" style={{maxWidth: "8%"}}></img>
     </a>
     <div clasName="navbar-nav">
-      <ul className="nav nav-tabs mx-auto text-center">
+     <h5> <ul className="nav nav-tabs mx-auto text-center">
     <li className="nav-item">
       <a className="nav-link text-danger" href="/">Portfolio</a>
     </li>
     <li className="nav-item">
-      <a className="nav-link text-dark" href="https://medium.com/@shashankjain_61975" target="_blank">Blog</a>
+     <a className="nav-link text-dark" href="https://medium.com/@shashankjain_61975" target="_blank">Blog</a>
     </li>
     <li className="nav-item">
       <a  className="nav-link text-dark" data-toggle="modal" data-target="#myModal" href="About">About</a>
@@ -285,6 +285,7 @@ class Navbar extends Component {
       <a className="nav-link text-dark" href={img[48]} target="_blank">Resume</a>
     </li>
     </ul>
+    </h5>
     </div>
     </div>
     </nav> 
@@ -299,10 +300,10 @@ class Navbar2 extends Component {
     <nav className="navbar fixed-top shadow-sm">
     <div className="container">
     <a id="navImage" href="/">
-    <img className="nav-brand" src = {img[42]} alt= "logo" style={{maxWidth: "7%"}}></img>
+    <img className="nav-brand" src = {img[42]} alt= "logo" style={{maxWidth: "8%"}}></img>
     </a>
     <div clasName="navbar-nav">
-      <ul className="nav nav-tabs mx-auto text-center">
+     <h5> <ul className="nav nav-tabs mx-auto text-center">
     <li className="nav-item">
       <a className="nav-link text-dark" href="/">Portfolio</a>
     </li>
@@ -316,6 +317,7 @@ class Navbar2 extends Component {
       <a className="nav-link text-dark" href={img[48]} target="_blank">Resume</a>
     </li>
     </ul>
+    </h5>
     </div>
     </div>
     </nav> 
@@ -332,7 +334,7 @@ class Navbar3 extends Component {
     <img className="nav-brand" src = {img[42]} alt= "logo" style={{maxWidth: "7%"}}></img>
     </a>
     <div clasName="navbar-nav">
-      <ul className="nav nav-tabs mx-auto text-center">
+    <ul className="nav nav-tabs mx-auto text-center">
     <li className="nav-item">
       <a className="nav-link text-dark" href="/">Portfolio</a>
     </li>
@@ -540,7 +542,7 @@ function Tile (props) {
     
    <div className = "shadow p-3 mb-5 bg-white rounded">
     <section className="card mx-auto">
-      <img className="card-img-top img-fluid" src={props.image}></img>
+      <img className="card-img-top" src={props.image}></img>
       <div className="card-body">
         <h4 className="card-title text-main text-dark">{props.title}</h4>
         <p className="card-text text-muted"> {props.description} </p>
@@ -578,14 +580,6 @@ class Projects extends Component{
             fields: "UX Design | Research "
           },
           {
-            id : 5,
-            link : "/BITS",
-            image : img[8],
-            title: "BITS",
-            description: "Compete with your friends in an engaging quiz game in a battle of wits.",
-            fields: "UX Design | Game Design "
-          },
-          {
             id : 7,
             link : "/Skjn",
             image : img[2],
@@ -593,6 +587,15 @@ class Projects extends Component{
             description: "Personal portfolio website. Grounds to experiment and test new code.",
             fields: "Development | React"
           },
+          {
+            id : 5,
+            link : "/BITS",
+            image : img[8],
+            title: "BITS",
+            description: "Compete with your friends in an engaging quiz game in a battle of wits.",
+            fields: "UX Design | Game Design "
+          },
+          
           {
             id : 1,
             link : "/Thesis",
