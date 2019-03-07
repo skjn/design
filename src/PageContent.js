@@ -302,6 +302,9 @@ function OmaBody() {
             <li>Sketching</li>
           </ul>
         </div>
+        <div className="col-6 col-sm-12 mb-3 text-center">
+                <img src={img[107]} style={{ maxWidth: "100%" }} />
+                </div>
       </div>
       <hr />
       <div className="row">
@@ -1027,17 +1030,20 @@ function NgBody() {
               <li>After Effects</li>
             </ul>
           </div>
+          <div className="col-6 col-sm-12 mb-3 text-center">
+                <img src={img[106]} style={{ maxWidth: "100%" }} />
+                </div>
         </div>
-        <hr />
         <div className="row">
           <div className="ml-3 mr-3">
-            <h2 id="heading" className="mb-5 text-center">Overview</h2>
+            <h2 id="heading" className="mb-5 mt-3 text-center">Design Brief</h2>
             <h5><strong>Project Brief</strong></h5>
             <p className="text-justify">With an initial idea of helping people with mental disorders get better treatment, this project explores all the aspects related to mental disorders. 
             Starting from basics of understanding mental disorders, focusing on Anxiety, the research delves into treatment and technology used in the healthcare industry. Apart from literature survey, 
             input from psychologists is taken to strengthen the research, and develop a strong design direction based on the need of the industry.</p>
-            <p>Team : Shashank Jain   |   Jingyi Cheng   |   Yuqing Chen</p>
-            <p>Duration : 3 months</p>
+            <p><strong>Team</strong> : Shashank Jain   |   Jingyi Cheng   |   Yuqing Chen</p>
+            <p><strong>My Role </strong>: UX Research   |   UX Design  |  Visual Design</p>
+            <p><strong>Duration</strong> : 3 months</p>
             <div className="col-6 col-sm-12 text-center">
                 <img src={img[94]} style={{ maxWidth: "80%" }} />
                 </div>
@@ -1080,7 +1086,7 @@ function NgBody() {
             <div className="col-lg-4 md-6 sm-12 text-center">
               <p className="text-center"><strong>Real time Data Based</strong></p>
               <img  className="mb-5" src={img[72]} style={{ maxWidth: "50%" }} />
-              <p className="text-justify"> Detect emotional and anxiety status using body and coice sensors, wearable tattoos, or watches to provide personalized feedback</p>
+              <p className="text-justify"> Detect emotional and anxiety status using body and voice sensors, wearable tattoos, or watches to provide personalized feedback</p>
               <br />
             </div>
             <div className="col-lg-4 md-6 sm-12 text-center">
@@ -1112,15 +1118,7 @@ function NgBody() {
               <div className="col-12 text-center mb-5 "><img src={img[53]} style={{ maxWidth: "750px" }} /></div>
               <div className="col-12 mb-5"><p>An intensive literature review was conducted to understand the problem in depth. We looked into academic papers and official websites such as ADAA (Anxiety and Depression Association of  America) 
               and the website of counseling and mental health center provided by UT Austin.</p></div>
-            <div className="col-lg-4 md-6 sm-12 text-center">
-            <ModalImage className="justify-content-center shadow rounded " small={img[73]} large={img[73]} alt="Research Compilation"/>
-            </div>
-            <div className="col-lg-4 md-6 sm-12 text-center">
-            <ModalImage className="justify-content-center shadow rounded " small={img[74]} large={img[74]} alt="Research Compilation"/>
-            </div>
-            <div className="col-lg-4 md-6 sm-12 text-center">
-            <ModalImage className="justify-content-center shadow rounded " small={img[75]} large={img[75]} alt="Research Compilation"/>
-            </div>
+          
           </div>
             </div>
             <div className="container">
@@ -1130,19 +1128,47 @@ function NgBody() {
               <div className="col-12 mb-5"><p>As for interviews, We had the chance of speaking to 1 technologist from the Texas material institute at UT Austin who's focusing on bio-integrated tattoos and 2 clinical professionals from Anxiety and Health Behaviors 
               lab at UT.  Apart from that, we interviewed 6 subclinical people who have anxiety problems.</p></div>
             <div className="col-lg-4 md-6 sm-12 text-center">
-              <img className="justify-content-center shadow rounded" src={img[76]} style={{ maxWidth: "100%" }} />
+            <ModalImage className="justify-content-center shadow rounded " small={img[76]} large={img[76]} alt="Research Compilation" style={{ maxWidth: "100%" }}/>
             </div>
             <div className="col-lg-4 md-6 sm-12 text-center">
-              <img className="justify-content-center shadow rounded" src={img[77]} style={{ maxWidth: "100%" }} />
+            <ModalImage className="justify-content-center shadow rounded " small={img[77]} large={img[77]} alt="Research Compilation" style={{ maxWidth: "100%" }}/>
             </div>
             <div className="col-lg-4 md-6 sm-12 text-center">
-              <img className="justify-content-center shadow rounded" src={img[78]} style={{ maxWidth: "100%" }} />
+            <ModalImage className="justify-content-center shadow rounded " small={img[78]} large={img[78]} alt="Research Compilation" style={{ maxWidth: "100%" }}/>
             </div>
           </div>
           </div>
             <div className="container">
+              <hr className=" mt-5" />
+              <h5><strong>Research Synthesis</strong></h5>
+              <div className="row">
+              <div className="col-12 "><p>Once we had collected all the data through primary and secondary research, we externalized it on whiteboard to get a holistic picture,
+                and make meaningful analysis. This process of viewing all information at one glance helped us connect research and derive research based product direction. </p></div>
+              <div className="col-lg-4 md-6 sm-12 text-center">
+            <ModalImage className="justify-content-center shadow rounded " small={img[73]} large={img[73]} alt="Research Compilation"/>
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+            <ModalImage className="justify-content-center shadow rounded " small={img[74]} large={img[74]} alt="Research Compilation"/>
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center">
+            <ModalImage className="justify-content-center shadow rounded " small={img[75]} large={img[75]} alt="Research Compilation"/>
+            </div>
+          </div>
+          </div>
+            <div className="container">
+              <hr className="mb-3 mt-5" />
+              <h5><strong>Initital Research Findings</strong></h5>
+              <div className="row">
+                <div className="col-12">
+                
+                  <p className="text-justify">After finishing all the research phases, we collected all the raw data. We organized and analyzed the research results and developed the following key takeaways. The results were actually very different from what we thought before. </p>
+                </div>
+                <div className="col-12 text-center mt-5"><img src={img[96]} style={{ maxWidth: "80%" }} /></div>
+              </div>
+            </div>
+            <div className="container">
               <hr className="mb-3" />
-              <h5><strong>Initital Research Findings & Product Redirection</strong></h5>
+              <h5><strong>Product Redirection</strong></h5>
               <div className="row">
                 <div className="col-12">
                 
@@ -1151,31 +1177,33 @@ function NgBody() {
                   health treatment, which our product could cater too. The challenge was that it would require extensive research, and very few products could be used to learn from for competitive analysis. We decided to go with
                    2nd option, and design for clinical treatment.</p>
                 </div>
-                <div className="col-12 text-center mt-5"><img src={img[96]} style={{ maxWidth: "80%" }} /></div>
+                <div className="col-12 text-center mt-5"><img src={img[108]} style={{ maxWidth: "80%" }} /></div>
               </div>
             </div>
             <div className="container">
               <hr className="mb-3" />
-              <h5><strong>Key Insights</strong></h5>
+              <h5><strong>Follow up Research</strong></h5>
               <div className="row">
                 <div className="col-12">
                 
-                  <p className="text-justify">Our synthesis and analysis based on the research material helped us identify problems that patients and therapists face during the treatment process, which our product can target to streamline the process, making therapy more effective.​</p>
+                  <p className="text-justify">After we decided our product direction, we conducted one more round of interviews and literature review to delve deeper in the treatment process for Anxiety Disorder. 
+                  Our target is to find out more painpoints that both therapy and patient are face during the treatment process.</p>
                 </div>
-                <div className="col-12 text-center mt-5"><img src={img[97]} style={{ maxWidth: "80%" }} /></div>
+                <div className="col-12 text-center mt-5"><img src={img[56]} style={{ maxWidth: "80%" }} /></div>
               </div>
             </div>
+          
             <div className="container">
               <hr className="mb-3" />
               <h2 id="heading" className="mb-5 text-center"> Design Process</h2>
 
-              <h5><strong>User Journey & Pain Points</strong></h5>
+              <h5><strong>User Journey Map & Pain Points</strong></h5>
               <div className="row">
                 <div className="col-12">
                   <p className="text-justify">The CBT treatment journey has been summarised in 8 steps below. Actual journey is much longer, and personalized. </p>
                 </div>
-                <div className="col-12 text-center mb-5"><img src={img[56]} style={{ maxWidth: "80%" }} /></div>
-                <div className="col-12 text-center"><img  src={img[55]} style={{ maxWidth: "80%" }} /></div>
+                
+                <div className="col-12 text-center"><ModalImage  small={img[55]} large={img[55]} style={{ maxWidth: "40%" }}  alt="Research Compilation"/></div>
                 <div className="col-12">
                   <p className="text-justify mt-5 mb-5">Below the journey map, we charted out the common issues patients face with completing the assignments given to them during CBT. Common reasons that therapists hear from patients 
                   for not completing home assignments and other problems they face are :
@@ -1184,7 +1212,7 @@ function NgBody() {
                       Patients think assignments are arbitrary
                       </li>
                       <li>
-                      atients try hard to give “correct” answer over real answer
+                      Patients try hard to give “correct” answer over real answer
                       </li>
                       <li>
                       Inability to do daily tasks and assignments due to unforeseen events like relatives coming over, office dinner, visit to parents house e.t.c.
@@ -1219,6 +1247,7 @@ function NgBody() {
                       </li>
                     </ul>
                    </p>
+                   
                 </div>
               </div>
             </div>
@@ -1228,11 +1257,27 @@ function NgBody() {
               <div className="row">
               <div className="col-12 mb-5"><p>Based on the information that we gathered from interviews, we created two personas for both therapists and patients.</p></div>
                 <div className="row">
-                <div className="col-6 text-center"><img className="shadow" src={img[79]} style={{ maxWidth: "100%" }} /></div>
-                <div className="col-6 text-center"><img className="shadow" src={img[80]} style={{ maxWidth: "95%" }} /></div>
+                <div className="col-6 text-center">
+                <ModalImage className="shadow " small={img[79]} large={img[79]} alt="Research Compilation" style={{ maxWidth: "100%" }}/>
+                </div>
+                <div className="col-6 text-center">
+                <ModalImage className="shadow " small={img[80]} large={img[80]} alt="Research Compilation" style={{ maxWidth: "85%" }}/>
+                </div>
                 </div>
               </div>
             </div>
+            <div className="container">
+              <hr className="mb-3" />
+              <h5><strong>Key Insights</strong></h5>
+              <div className="row">
+                <div className="col-12">
+                
+                  <p className="text-justify">Our synthesis and analysis based on the research material helped us identify problems that patients and therapists face during the treatment process, which our product can target to streamline the process, making therapy more effective.​</p>
+                </div>
+                <div className="col-12 text-center mt-5"><img src={img[97]} style={{ maxWidth: "80%" }} /></div>
+              </div>
+            </div>
+          
             <div className="container">
               <hr className="mb-3" />
               <h4><strong>Competitive Analysis</strong></h4>
@@ -1243,7 +1288,7 @@ function NgBody() {
             </div>
             
             <div className="container">
-              <hr className="mb-3" />
+              <hr className="mt-5" />
               <h5><strong>Ideation & Information Architecture</strong></h5>
               <div className="row">
               <div className="col-12"><p>After fully understanding the problem are we were working for, and having a general idea in the direction of the solution, we brainstormed the features that we like to achieve for users. ​
@@ -1251,6 +1296,9 @@ function NgBody() {
                 <div className="container mt-3">
                 <div className="row">
                 <div className="col-6 col-sm-12 text-center mt-5 mb-5"><img src={img[91]} style={{ maxWidth: "70%" }} />
+                <div className="col-12 mt-5">After our brainstorming session, we segregated the features on basis of importance and use, and created an information flow structure for the product.</div>
+                <div className="col-6 col-sm-12 text-center mt-5 mb-5"><img src={img[81]} style={{ maxWidth: "100%" }} />
+                </div>
                 
               </div>
               </div>
@@ -1260,17 +1308,19 @@ function NgBody() {
               <hr className="mb-3" />
               <h5><strong>Wireframes</strong></h5>
               <div className="row">
-              <div className="col-12"><p>To fill the gap in the current therapy work-flow, to develop a product direction, we brainstormed ideas and features our product can have. Each team member sketched their ideas and produced wireframes</p></div>
+              <div className="col-12"><p>We tried different styles of layouts and discussed each other's idea. Our goal was to find out the optimal design solution to help therapists to better manage their work. </p></div>
                 <div className="container mt-3">
                 <div className="row">
-                <div className="col-6 col-sm-12 text-center"><img src={img[58]} style={{ maxWidth: "50%" }} />
-                <img src={img[59]} style={{ maxWidth: "45%" }} />
+                <div className="col-6 text-center">
+                <ModalImage className="shadow " small={img[58]} large={img[58]} alt="Research Compilation" style={{ maxWidth: "50%" }}/>
+                
+                </div>
+                <div className="col-6 text-center">
+                <ModalImage className="shadow " small={img[59]} large={img[59]} alt="Research Compilation" style={{ maxWidth: "40%" }}/>
+                
                 </div>
                 <div className="col-12 mt-5"><p>After we sketched ideas for how we were visualizing the ideas in our head. We discussed them all, explaining the pros and cons of each. Even with different people’s multiple ideas, a pattern started to emerge, and further refinement led to our initial specific approach.</p></div>
                 <div className="col-12 text-center mt-3"><img src={img[98]} style={{ maxWidth: "80%" }} /></div>
-                </div>
-                <div className="col-12 mt-5">After our brainstorming session, we segregated the features on basis of importance and use, and created an information flow structure for the product.</div>
-                <div className="col-6 col-sm-12 text-center mt-5 mb-5"><img src={img[81]} style={{ maxWidth: "100%" }} />
                 </div>
                 
               </div>
@@ -1280,15 +1330,20 @@ function NgBody() {
               <div className="col-12 mt-5"><h5><strong>Iterative Development</strong></h5></div>
               <div className="col-12"><p>We converted that information flow into low fidelity screens, and kept iterating with feedbacks and critiques.</p></div>
                 <div className="container mt-3">
-                <div className="row">
-                <div className="col-6 col-sm-12 text-center mt-3 mb-5"><img src={img[60]} style={{ maxWidth: "50%" }} />
-                <img src={img[61]} style={{ maxWidth: "50%" }} />
+                <div className="row mb-5">
+                <div className="col-6 text-center mb-5">
+                <ModalImage className="shadow " small={img[60]} large={img[60]} alt="Research Compilation" style={{ maxWidth: "50%" }}/>
+                
                 </div>
-                <div className="col-6 col-sm-12 text-center"><img className="mr-5 shadow"  src={img[85]} style={{ maxWidth: "45%" }} />
-                <img className="shadow" src={img[84]} style={{ maxWidth: "45%" }} />
+                <div className="col-6 text-center mb-5">
+                <ModalImage className="shadow " small={img[61]} large={img[61]} alt="Research Compilation" style={{ maxWidth: "40%" }}/>
+                
                 </div>
-                <div className="col-6 col-sm-12 text-center mt-5"><img  className="mr-5 shadow" src={img[82]} style={{ maxWidth: "45%" }} />
-                <img className="shadow" src={img[83]} style={{ maxWidth: "45%" }} />
+                <div className="col-6 col-sm-12 text-center"><img className="mr-5 shadow"  src={img[109]} style={{ maxWidth: "45%" }} />
+                <img className="shadow" src={img[110]} style={{ maxWidth: "45%" }} />
+                </div>
+                <div className="col-6 col-sm-12 text-center mt-5"><img  className="mr-5 shadow" src={img[111]} style={{ maxWidth: "45%" }} />
+                <img className="shadow" src={img[112]} style={{ maxWidth: "45%" }} />
                 </div>
               </div>
               </div>
@@ -1298,8 +1353,9 @@ function NgBody() {
               <hr className="mb-3" />
               <h5><strong>User Testing and Iterations</strong></h5>
               <div className="row">
-              <div className="col-12 mb-5">We put usability testing after our mid-fidelity designs. We tested on the two therapists that we interviewed and also sent out to 12 real therapists through usability testing website. 
-              From the feedback and suggestions that we gathered from all the tests, we further made more changes and confirmed the final design.</div>
+              <div className="col-12 mb-5"><p>We conducted usability testing after our mid-fidelity designs. We tested on the two therapists that we interviewed and also sent out to 12 real therapists through usability testing website. 
+              From the feedback and suggestions that we gathered from all the tests, we further made more changes and confirmed the final design.  </p></div>
+            
             <div className="col-lg-4 md-6 sm-12 text-center">
               <img className="justify-content-center shadow rounded" src={img[86]} style={{ maxWidth: "100%" }} />
             </div>
@@ -1310,6 +1366,7 @@ function NgBody() {
               <img className="justify-content-center shadow rounded" src={img[90]} style={{ maxWidth: "100%" }} />
             </div>
           </div>
+          
           <div className="col-12">
                   <p className="text-justify mt-5 mb-5"><strong>Feedback</strong> <br/>We got a lot of valuable feedback from our three rounds user testing.
                     <ul className="mt-2">
@@ -1340,14 +1397,20 @@ function NgBody() {
                     </ul>
                    </p>
                    </div>
+                   <div className="col-6 col-sm-12 text-center"><img className="mr-5 shadow"  src={img[85]} style={{ maxWidth: "45%" }} />
+                <img className="shadow" src={img[84]} style={{ maxWidth: "45%" }} />
+                </div>
+                <div className="col-6 col-sm-12 text-center mt-5"><img  className="mr-5 shadow" src={img[82]} style={{ maxWidth: "45%" }} />
+                <img className="shadow" src={img[83]} style={{ maxWidth: "45%" }} />
+                </div>
           </div>
             <div className="container">
               <hr className="mb-3" />
               <h2 id="heading" className="mb-5 text-center"> Final Prototype</h2>
               <div className="row">
               <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>Making daily work easier with schedule, notes and automatic 
-                notifications</strong></h3><br/>On every workday, Sense.i provide therapy with timely-arranged appointments, schedule, work notes 
-                and notifications to help therapy start work with everything he needs.</div>
+                notifications</strong></h3><br/>For everyday work, Sense.i provide therapy with timely-arranged appointments, schedule, work notes 
+                and notifications to help therapist start with everything he needs on a quick glance</div>
                 <div className="col-8 text-right mt-3">
                 <img className="mb-5 ml-5" src={require('./images/DFH/home.gif')} style={{ maxWidth: "100%" }} />
                 </div>
@@ -1355,14 +1418,15 @@ function NgBody() {
                 <div className="row">
               <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>Patient profile with data analysis and progress status</strong></h3><br/>Sense.i strictly follows the HIPAA policy to protect all patients information.
 
-It provides detailed information and data analysis of each patient so that therapy can easily manage the progress of each patient.</div>
+It provides detailed information and data analysis of each patient after authorized login so that therapy can easily manage the progress of each patient.</div>
                 <div className="col-8 text-right mt-3">
                 <img className="mb-5 ml-5" src={require('./images/DFH/pat.gif')} style={{ maxWidth: "100%" }} />
                 </div>
                 </div>
                 <div className="row">
-              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>File management to streamline therapy's work</strong></h3><br/>By giving therapy all the homework templates and the choice of self-editable file, Sense.i makes it a lot more convenient for therapy to manage all their files 
-                    and with just a click he can send the homework to the patient with a set amount of time that requires.</div>
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>File management to streamline therapy's work</strong></h3>
+              <br/>By giving therapy all the homework templates in an editable format, Sense.i makes it a lot more convenient for the therapist to manage all their files. 
+                    With just a click he can send the homework to the patient with a various instrucions, time-based deadlines and repetitions.</div>
                 <div className="col-8 text-right mt-3">
                 <img className="mb-5 ml-5" src={require('./images/DFH/file.gif')} style={{ maxWidth: "100%" }} />
                 </div>
@@ -1370,17 +1434,16 @@ It provides detailed information and data analysis of each patient so that thera
                 <div className="row">
               <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>Contact and send files to patients easily</strong></h3><br/>Patient and therapy can contact each other more easily through Sense.i. If it's in an emergency, patients can talk to their therapist directly.
 
-And therapists can pull out the file database and editing the files or homework that are needed for the patient and send them at any time with just one click.</div>
+Having access to all files and patient status from a single location, Therapist can guide patients and send materials with ease. </div>
                 <div className="col-8 text-right mt-3">
                 <img className="mb-5 ml-5" src={require('./images/DFH/message.gif')} style={{ maxWidth: "100%" }} />
                 </div>
                 </div>
                 <div className="row">
-              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>Easy management of all the treatment progress for patient's side</strong></h3><br/>Sense.i also personalizes a platform just for patients. Patients can monitor their physical data that are collected by the tattoo.
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#5885F7"}}><strong>Easy management of all the treatment progress for patient's side</strong></h3><br/>Sense.i also personalizes a platform just for patients. Patients can monitor their physical data collected by bio-integrated tattoo.
 
-Doing homework with notifications and instructions and possess all the information that you need to help you get better!
-
-You can contact your therapist is not that hard anymore.</div>
+Homeworks have better explanations and instructions, so you never feel lost at any point. 
+</div>
                 <div className="col-8 text-right mt-3">
                 <img className="mb-5 ml-5" src={require('./images/DFH/patient.gif')} style={{ maxWidth: "100%" }} />
                 </div>
@@ -1400,7 +1463,7 @@ You can contact your therapist is not that hard anymore.</div>
                   design process, and learned how to overcome problems by research, design and iteration.
                     <ul className="mt-2">
                       <li>
-                        <h6 style={{color:"#5885F7"}}><strong>There is no such thing as knowing your audience too much.</strong></h6> 
+                        <h6 style={{color:"#5885F7"}}><strong>User research forms the backbone of good design.</strong></h6> 
                         Every design has a purpose and that is to reach the intended audience effectively. We spent alot of time doing extensive research and understanding
                         our users and the process in depth. The knwoledge base we created proved to be extremely useful throughout the design journey, allowing us to take 
                         informed design decisions at each step.   
@@ -1431,9 +1494,7 @@ You can contact your therapist is not that hard anymore.</div>
               <div className="col-sm-12 col-lg-6 text-center"> 
                 <p className="text-center text-secondary">
                   <a  href="https://projects.invisionapp.com/prototype/cjpbtdplu00gc6j013huy1030/play" target="_blank" style={{color:"#5885F7"}}><strong>Click Here for Final Prototype</strong></a> </p>
-                  <p className="text-secondary">or copy the link below </p>
-                  <p className="text-secondary">https://projects.invisionapp.com/prototype/Sense-i-cjpbtdplu00gc6j013huy1030/play/86d29fe7 </p>
-              </div>
+                  </div>
               <div className="col-sm-12 col-lg-6 text-center"> 
                 <p className="text-center text-secondary">
                   <a href={img[54]} target="_blank" style={{color:"#5885F7"}}><strong>Click Here for Project Journey Document</strong></a> </p>

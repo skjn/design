@@ -56,8 +56,8 @@ import dfh2 from './images/DFH/Sensei.pdf';
 import dfh3 from './images/DFH/3.jpg';
 import dfh4 from './images/DFH/4.jpg';
 import dfh5 from './images/DFH/5.jpg';
-import dfh6 from './images/DFH/6.jpg';
-import dfh7 from './images/DFH/7.jpg';
+import dfh6 from './images/DFH/6.png';
+import dfh7 from './images/DFH/7.png';
 import dfh8 from './images/DFH/8.jpg';
 import dfh9 from './images/DFH/9.jpg';
 import dfh11 from './images/DFH/11A.jpg';
@@ -79,7 +79,7 @@ import dfh26 from './images/DFH/26.jpg';
 import dfh27 from './images/DFH/27.jpg';
 import dfh28 from './images/DFH/28.png';
 import dfh29 from './images/DFH/29.png';
-import dfh30 from './images/DFH/30.jpg';
+import dfh30 from './images/DFH/30.png';
 import dfh34 from './images/DFH/34.png';
 import dfh35 from './images/DFH/35.png';
 import dfh36 from './images/DFH/36.png';
@@ -104,6 +104,13 @@ import om6 from './images/OMA/6.jpg';
 import om7 from './images/OMA/7.jpg';
 import om8 from './images/OMA/8.jpg';
 import om9 from './images/OMA/9.jpg';
+import dfh48 from './images/DFH/48.jpg';
+import om10 from './images/OMA/10.jpg';
+import dfh49 from './images/DFH/49.jpg';
+import dfh50 from './images/DFH/50.png';
+import dfh51 from './images/DFH/51.png';
+import dfh52 from './images/DFH/52.png';
+import dfh53 from './images/DFH/53.png';
 
 
 
@@ -116,4 +123,4 @@ export default [t1,t2,t3,t4,t5,t6,t7,t8,t9,th1,th2,th3,th4,th5,th6,th7,th8,th9,n
                 om1,om2,om3,bt1,bt2,resume,sk1,sk2,sk3,sk4,dfh1,dfh2,dfh3,dfh4,dfh5,dfh6,dfh7,dfh8,
                 dfh9,dfh11,dfh12,dfh13,dfh14,dfh15,dfh16,dfh17,dfh18,dfh19,dfh20,dfh21,dfh22,dfh23,dfh24,dfh25,dfh26,dfh27,dfh28,dfh29,dfh30,
                 dfh34,dfh35,dfh36,dfh37,dfh31,dfh32,dfh33,dfh38,dfh39,dfh40,dfh41,dfh42,dfh43,dfh44,dfh45,dfh46,dfh47,am1,
-                om4,om5,om6,om7,om8,om9]
+                om4,om5,om6,om7,om8,om9,dfh48,om10,dfh49,dfh50,dfh51,dfh52,dfh53]
