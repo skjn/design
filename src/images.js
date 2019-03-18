@@ -111,6 +111,32 @@ import dfh50 from './images/DFH/50.png';
 import dfh51 from './images/DFH/51.png';
 import dfh52 from './images/DFH/52.png';
 import dfh53 from './images/DFH/53.png';
+import ai1 from './images/AI/1.jpg';
+import ai2 from './images/AI/2.jpg';
+import ai3 from './images/AI/3.jpg';
+import ai4 from './images/AI/4.jpg';
+import ai5 from './images/AI/5.jpg';
+import ai6 from './images/AI/6.jpg';
+import ai7 from './images/AI/7.jpg';
+import ai8 from './images/AI/8.jpg';
+import ai9 from './images/AI/9.jpg';
+import ai10 from './images/AI/10.jpg';
+import ai11 from './images/AI/11.jpg';
+import ai12 from './images/AI/12.jpg';
+import ai13 from './images/AI/13.jpg';
+import ai14 from './images/AI/14.jpg';
+import ai15 from './images/AI/15.jpg';
+import ai16 from './images/AI/16.jpg';
+import ai17 from './images/AI/17.jpg';
+import ai18 from './images/AI/18.jpg';
+import ai19 from './images/AI/19.jpg';
+import ai20 from './images/AI/20.jpg';
+import ai21 from './images/AI/21.jpg';
+import ai22 from './images/AI/22.jpg';
+import ai23 from './images/AI/23.jpg';
+import ai24 from './images/AI/24.jpg';
+import ai25 from './images/AI/25.jpg';
+import ai26 from './images/AI/26.png';
 
 
 
@@ -123,4 +149,5 @@ export default [t1,t2,t3,t4,t5,t6,t7,t8,t9,th1,th2,th3,th4,th5,th6,th7,th8,th9,n
                 om1,om2,om3,bt1,bt2,resume,sk1,sk2,sk3,sk4,dfh1,dfh2,dfh3,dfh4,dfh5,dfh6,dfh7,dfh8,
                 dfh9,dfh11,dfh12,dfh13,dfh14,dfh15,dfh16,dfh17,dfh18,dfh19,dfh20,dfh21,dfh22,dfh23,dfh24,dfh25,dfh26,dfh27,dfh28,dfh29,dfh30,
                 dfh34,dfh35,dfh36,dfh37,dfh31,dfh32,dfh33,dfh38,dfh39,dfh40,dfh41,dfh42,dfh43,dfh44,dfh45,dfh46,dfh47,am1,
-                om4,om5,om6,om7,om8,om9,dfh48,om10,dfh49,dfh50,dfh51,dfh52,dfh53]
+                om4,om5,om6,om7,om8,om9,dfh48,om10,dfh49,dfh50,dfh51,dfh52,dfh53,ai1,ai2,ai3,ai4,ai5,ai6,ai7,ai8,ai9,ai10,ai11,ai12
+                ,ai13,ai14,ai15,ai16,ai17,ai18,ai19,ai20,ai21,ai22,ai23,ai24,ai25,ai26]

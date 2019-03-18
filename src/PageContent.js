@@ -461,6 +461,303 @@ function OmaBody() {
   )
 }
 
+function AiBody() {
+  return (
+    <div className="container mt-5">
+    <br/><br/><br/>
+      <h2 className="text-center">Agriculture Intelligence</h2>
+      <p className="text-center text-secondary mb-5">UX Design | AI in Agriculture | Academic | Individual</p>
+      <div className="row border border-muted mx-auto text-muted">
+        <div className="col-sm-12 col-md-6 col-lg-3 mt-3 text-center">
+          <p classname="mb-0"><strong>Course</strong> : Advanced Design for AI</p>
+          <p classname="mb-0"><strong>Field</strong> : Urban Farming</p>
+          <p classname="mb-0"><strong>Semester </strong> : Spring 2019</p>
+          <p classname="mb-0"><strong>Type</strong> : Academic Project</p>
+        </div>
+        <div className="col-sm-12 col-md-6 col-lg-3 mt-3 text-center ">
+          <p classname="mb-0"><strong>Key research Areas</strong></p>
+          <ul className="list-unstyled">
+            <li>Urban Organic Farming</li>
+            <li>Farm Management</li>
+            <li>Food Consumption Habits</li>
+            <li>Community Integration</li>
+          </ul>
+        </div>
+        <div className="col-sm-12 col-md-6 col-lg-3 mt-3 text-center">
+          <p classname="mb-0"><strong>Skills</strong></p>
+          <ul className="list-unstyled">
+            <li>User Research</li>
+            <li>Journey Maps</li>
+            <li>Affinity Diagrams</li>
+            <li>User Personas</li>
+          </ul>
+        </div>
+        <div className="col-sm-12 col-md-6 col-lg-3 mt-3 text-center">
+          <p classname="mb-0"><strong>Tools</strong></p>
+          <ul className="list-unstyled">
+            <li>User Research</li>
+            <li>Sketch</li>
+            <li>Photoshop</li>
+            <li>Sketching</li>
+          </ul>
+        </div>
+        <div className="col-6 col-sm-12 mb-3 text-center">
+                <img src={img[113]} style={{ maxWidth: "100%" }} />
+                </div>
+      </div>
+      <hr />
+      <div className="row">
+        <div className="ml-3">
+        <h2 id="heading" className="mb-5 text-center"> Design Brief</h2>
+        <h4>Concept</h4>
+        <p className="text-justify">With an initial idea of using Artificial Intelligence to aid urban farming, this project explores the various aspects and roles
+        involved in the farming process. The initial aim we started with is to increase community involvement in urban farming, and make the process easier and adoptable. All the stakeholders are interviewed to understand their goals, motivations, approach and outlook on urban farming.
+         From the intensive research, journey maps for 2 stakeholders is created, followed by extraction of indights and pain points. This allows us to find the avenue to make 
+         a design solution to elevate those pain point in the process.   </p>
+            <p><strong>Team</strong> : Shashank Jain   |   Jingyi Cheng   |   Elizabeth Moore | Harika Bommu | Ting Pan</p>
+            <p><strong>My Role </strong>: UX Research   |   UX Design  |  Visual Design</p>
+            <p><strong>Duration</strong> : 3 months [ in progress ]</p>
+        </div>
+        
+        <div className="container">
+          <hr className="mb-3" />
+          <h4>Original Elevator Pitch</h4>
+          <div className="row">
+          <div className="col-12">
+          <p className="text-justify">We brainstormed and discussed to create an initial elevator pitch for our design solution. This is meant to give a hint towards our research direction,
+          and keep us on track with our goals always in place to allow for a focused approach.</p>
+            </div>
+            <div className="col-12 mb-3"><img src={img[114]} style={{ maxWidth: "100%" }} /></div>
+          </div>
+        </div>
+        <div className="container">
+          <hr className="mb-3" />
+          <h4>Original Solution</h4>
+          <div className="row">
+          <div className="col-12">
+          <p className="text-justify">Through basic internet research, we identified areas where we can make an impact, and ease the process through design intervention. These are
+          divided in 4 categories as follows.</p>
+            </div>
+            <div className="col-12 mb-3"><img src={img[115]} style={{ maxWidth: "100%" }} /></div>
+            <div className="col-12">
+            <p className="text-justify  mb-5">We also listed down ideas/features that we can implement to achieve the goal.
+                    <ul className="mt-2">
+                      <li>
+                      Analyze soil condition
+                      </li>
+                      <li>
+                      Suggest suitable plants and their placement based on the soil composition
+                      </li>
+                      <li>
+                      Aid in crop management and protection
+                      </li>
+                      <li>
+                      Gamifying the process
+                      </li>
+                      <li>
+                      AR experience during the plant growth
+                      </li>
+                      <li>
+                      Timely, propitious alerts for crop harvesting
+                      </li>
+                      <li>
+                      Smart distribution of food to the community
+                      </li>
+                    </ul>
+                   </p>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+              <hr className="mb-3" />
+              <h2 id="heading" className="mb-5 text-center"> Initial Objectives </h2>
+              <div className="row">
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#98d35a"}}><strong>User Frame </strong></h3>
+              <br/>We created a matrix to understand different user groups our product could cater to, and in what areas, and marked the ones that we were going to focus on. This helped 
+              guide research direction, interview recruitment, and interview script preparation.</div>
+                <div className="col-8 text-right mt-3">
+                <ModalImage className="mb-5 ml-5 mr-5" small={img[125]} large={img[125]} alt="Research Compilation"/>
+                </div>
+                </div>
+                <div className="row">
+                <div className="col-8 text-left align-left mt-3">
+                <ModalImage className="mb-5 mr-5 text-left align-left" small={img[126]} large={img[126]} alt="Research Compilation"/>
+
+                </div>
+              <div className="col-4 mt-5 text-right align-middle"><h3 style={{color:"#98d35a"}}><strong>Business Frame.</strong></h3>
+              <br/>To get an initial idea on the scope of our intervention, we marked the scale of the solution we were looking at. These frames were for initial ideas, and 
+              would evolve as per research. </div>
+                
+                </div>
+                <div className="row">
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#98d35a"}}><strong>Problem Frame</strong></h3>
+              <br/>Problem frame helped us pin point individual groups we were going to target , and the features our solution could help in. Giving the solution an
+               initial name helped understand it better.</div>
+                <div className="col-8 text-right mt-3">
+                <ModalImage className="mb-5 ml-5 mr-5" small={img[129]} large={img[129]} alt="Research Compilation"/>
+                </div>
+                </div>
+                <div className="col-12 text-center">
+              <img className="justify-content-center mt-5" src={img[116]} style={{ maxWidth: "100%" }} />
+            </div>
+                </div>
+        <div className="container">
+        <hr/>
+        <h2 id="heading" className="mb-5 text-center"> Research</h2>
+          <div className="row">
+          <p className="col-12 text-justify"><strong>Focusing research to understand need</strong><br/> To focus our research, we divided the stakeholders in three categories, from which we would interview individuals to 
+          understand their journey and perceptions towards urban farming. This was done to get a holistic perspective of the problem space, and pin point real problems in the domain.</p>
+          <div className="col-12 mb-3"><img src={img[117]} style={{ maxWidth: "100%" }} /></div>
+          </div>
+          <div className="row">
+          <p className="col-12 text-justify"><strong>Research Plan</strong><br/> We created a research plan to stay on track, and make sure every aspect of the problem space is covered. The plan also helped us 
+          distribute work, connect data, and make sure everything got covered.</p>
+          <div className="col-12 mb-3 text-center"><img src={img[118]} style={{ maxWidth: "80%" }} /></div>
+          </div>
+          </div>
+          <div className="container">
+          <hr className="mb-3" />
+          <h4>Literature Review</h4>
+          <div className="row">
+          <p className="col-12 text-justify">We conducted indepth literature review on capabilities of artificial intelligence, and its application in the field of agriculture. 
+          To consolidate the data, we listed possibilities where AI can help. We found that AI can help in almost all stages of farming in one way or another, and 
+          how we use it to develop our product would depend on further research. </p>
+            <div className="col-xs-1 mb-3 text-center"><img src={img[119]} style={{ maxWidth: "80%" }} /></div>
+          </div>
+        </div>
+        <div className="container">
+          <hr className="mb-3" />
+          <h4>Competitive Analysis</h4>
+          <div className="row">
+          <p className="col-12 text-justify">We also analysed features and capabilties of other apps and products working in the same field. This helped us 
+          learn exisiting applications, and methods and problems of each approach. </p>
+          <div className="row text-center justify-content-center">
+                <div className="col-lg-10 md-8 sm-12 mt-5 mb-5 "><ModalImage className="shadow rounded" small={img[127]} large={img[127]} /></div>
+                </div>
+          </div>
+          <div className="row">
+          <p className="col-12 text-justify">We categorised the strengths and weaknesses of each app on a 5 point scale, to help compare them. This would laso help us later 
+          to understand our product better, and what problem space we want it to cater. </p>
+          <div className="row text-center justify-content-center">
+                <div className="col-lg-10 md-8 sm-12 mt-5 mb-5 "><ModalImage className="" small={img[128]} large={img[128]} /></div>
+                </div>
+          </div>
+        </div>
+        <div className="container">
+          <hr className="mb-3" />
+          <h4>Primary Research</h4>
+          <div className="row">
+          <p className="col-12 text-justify mt-3"><strong>On Site Studies</strong>
+          <br/>After literature review, we conducted onsite studies and interviews to understand in depth the process of urban farming and all its aspects, including how technology is being currently used.
+          This helped us gain kn owledge about the real world execution and problems faced in the process. We went to participate and interview 3 urban farms around austin, including
+          University of Texas's own student run micro-farm. We also interviewed the sustainability coordinater at UT for his perspective. </p>
+            <div className="col-xs-1 mb-3 text-center"><img src={img[120]} style={{ maxWidth: "90%" }} /></div>
+          </div>
+          <div className="row">
+          <p className="col-12 text-justify"><strong>Work Artifacts</strong><br/> An important part of understanding the process was understanding the tools used. From digital tools
+          used in planning and maintaining inventory, to paper sheets to check plant viability, weather, and planting seasons, to physical tools like spade and rake.</p>
+          <div className="col-12 mb-3 text-center"><img src={img[121]} style={{ maxWidth: "90%" }} /></div>
+          </div>
+          <div className="row">
+          <p className="col-12 text-justify mb-5"><strong>Journey Map Co-creation</strong><br/> Once we interviewed the people involved, we co-created three journey maps with different 
+          stakeholders to understand the pain points in their journey from their perspective. The journey maps were co-created with the farm volunteers, farm manager, and UT's sustainability coordinator  </p>
+              <div className="col-lg-4 md-6 sm-12 text-center mb-5">
+            <ModalImage className="justify-content-center shadow rounded " small={img[122]} large={img[122]} alt="Research Compilation"/>
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center mb-5">
+            <ModalImage className="justify-content-center shadow rounded " small={img[123]} large={img[123]} alt="Research Compilation"/>
+            </div>
+            <div className="col-lg-4 md-6 sm-12 text-center mb-5">
+            <ModalImage className="justify-content-center shadow rounded " small={img[124]} large={img[124]} alt="Research Compilation"/>
+            </div>
+          </div>
+        </div>
+      
+     
+  
+          <div className="container">
+        <hr/>
+        <h5 className="mb-5">User Personas</h5>
+        <p>We created 3 user personas from different stakeholder groups to understand them better, and to consolidate user data into archetypes. </p>
+        <div className="row">
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#98d35a"}}><strong>Neil Kaufman, Community Urban Farm Manager</strong></h3><br/></div>
+                <div className="col-8 text-right mt-3">
+                <ModalImage className="mb-5 ml-5 mr-5" small={img[130]} large={img[130]} alt="Research Compilation"/>
+                </div>
+                </div>
+                <div className="row">
+                <div className="col-8 text-left align-left mt-3">
+                <ModalImage className="mb-5 mr-5 text-left align-left" small={img[131]} large={img[131]} alt="Research Compilation"/>
+
+                </div>
+              <div className="col-4 mt-5 text-right align-middle"><h3 style={{color:"#98d35a"}}><strong>Jill ANderson, Volunteer at Urban Farms</strong></h3><br/></div>
+                
+                </div>
+                <div className="row">
+              <div className="col-4 mt-5 text-left align-middle"><h3 style={{color:"#98d35a"}}><strong>Tanya Cooper, Interested Uninvolved Individual</strong></h3><br/></div>
+                <div className="col-8 text-right mt-3">
+                <ModalImage className="mb-5 ml-5 mr-5" small={img[132]} large={img[132]} alt="Research Compilation"/>
+                </div>
+                </div>
+          </div>
+          <div className="container">
+          <hr className="mb-3" />
+          <h4>Externalizing Data</h4>
+          <div className="row">
+          <p className="col-12 text-justify">To consolidate and synthesize data, we used Mural to list down journey stages. Below that, we created 4 sections of Steps, Tools, Pain Points, and Opportunities to sort data and connect information. In the opportunitied 
+          section, we brainstormed and listed areas or methods of intervention that would help make the farming journey more enjoyable.</p>
+          <div className="row text-center justify-content-center">
+                <div className="col-lg-10 md-8 sm-12 mt-5 mb-5 "><ModalImage className="shadow rounded" small={img[138]} large={img[138]} /></div>
+                </div>
+          </div>
+        </div>
+          <div className="container">
+          <hr className="mb-3" />
+          <h4>User Journey Maps</h4>
+          <div className="row">
+          <p className="col-12 text-justify">We also created journey maps for urban farm managers and volunteers to understand their journey, pain points, and emotions during the whole process better. </p>
+          <div className="row text-center justify-content-center">
+                <div className="col-lg-10 md-8 sm-12 mt-5 mb-5 "><ModalImage className="shadow rounded" small={img[136]} large={img[136]} /></div>
+                </div>
+          </div>
+          <div className="row">
+          <div className="row text-center justify-content-center">
+                <div className="col-lg-10 md-8 sm-12 mt-5 mb-5 "><ModalImage className="shadow rounded" small={img[137]} large={img[137]} /></div>
+                </div>
+          </div>
+        </div>
+          <div className="container">
+          <hr className="mb-3" />
+          <h4>Key Insights</h4>
+          <div className="row">
+          <p className="col-12 text-justify">After analysing all the data we had collected during the research phase, we generated 5 insights that related to people's expectation and needs from the urban farming 
+          process. These insights would help us guide and brainstorm in a direction that would cater to real problems in this problem space. </p>
+            <div className="col-xs-1 mb-3 text-center"><img src={img[135]} style={{ maxWidth: "100%" }} /></div>
+          </div>
+        </div>
+        <div className="container">
+          <hr className="mb-3" />
+          <h4>Revised Elevator Pitch</h4>
+          <div className="row">
+          <p className="col-12 text-justify">After understanding the process first hand and talking to people involved, many of our assumptions were proved wrong, while genrating 
+          new insights that we could work on. This led us to revise our elevator pitch to match the needs of the user groups more.</p>
+            <div className="col-xs-1 mb-3 text-center"><img src={img[133]} style={{ maxWidth: "100%" }} /></div>
+          </div>
+        </div>
+          <div className="container">
+        <hr/>
+        <h5 className="mb-5">Future Steps</h5>
+        <div className="row">
+                <div className="row">
+                <div className="col-12 text-center"><ModalImage className="" small={img[134]} large={img[134]} /></div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  )
+}
+
 function BitsBody() {
   return (
     <div className="container mt-5">
@@ -1616,4 +1913,5 @@ Homeworks have better explanations and instructions, so you never feel lost at a
   export {DfhBody};
   export {NgBody};
   export {BitsBody};
+  export {AiBody};
       export default ThesisBody;

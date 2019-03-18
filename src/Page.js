@@ -11,7 +11,7 @@ import Anime from 'react-anime';
 import {BrowserRouter as Router } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import ThesisBody, {UdBody, OmaBody, IllustrationsBody, SkjnBody, 
-  HousingBody, DfhBody, NgBody, BitsBody} from './PageContent';
+  HousingBody, DfhBody, NgBody, BitsBody, AiBody} from './PageContent';
 
 import img from './images';
 import Cover from './Cover';
@@ -82,6 +82,11 @@ class Page extends Component {
               return (<SkjnPage/>);
             }
             }/>
+             <Route path="/AgricultureIntelligence" exact strict render={
+            ()=>{
+              return (<AiPage/>);
+            }
+            }/>
         </div>  
       </Router>
     );
@@ -141,6 +146,18 @@ class OmaPage extends Component {
     <div className="container">
       <Navbar3 />
       <OmaBody/>
+      <Footer/>
+    </div>
+    );
+  }
+}
+
+class AiPage extends Component {
+  render() {
+    return (
+    <div className="container">
+      <Navbar3 />
+      <AiBody/>
       <Footer/>
     </div>
     );
@@ -580,6 +597,14 @@ class Projects extends Component{
             fields: "UX Design | Research "
           },
           {
+            id : 2,
+            link : "/AgricultureIntelligence",
+            image : img[5],
+            title: "Agriculture Intelligence(AI)",
+            description: "Artificial Intelligence to assist Urban Farming and Home Gardens ",
+            fields: "Product | Design "
+          },
+          {
             id : 7,
             link : "/Skjn",
             image : img[2],
@@ -627,14 +652,6 @@ class Projects extends Component{
             title: "Housing",
             description: "Inclusive, healthy, and sustainable housing community. ",
             fields: "Architecture | Design "
-          },
-          {
-            id : 2,
-            link : "/",
-            image : img[5],
-            title: "Agriculture Intelligence(AI)",
-            description: "Artificial Intelligence to assist Urban Farming and Home Gardens ",
-            fields: "Product | Design "
           }
         ]
     }
@@ -680,7 +697,7 @@ class Footer extends Component{
         </div>
         </div>
         <div className="col text-center text-secondary mb-3">
-        Design & Code by Shashank Jain | Last update: February 08, 2019
+        Design & Code by Shashank Jain | Last update: March 18, 2019
         </div>
       </div>
     );
